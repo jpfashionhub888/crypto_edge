@@ -1,65 +1,65 @@
 {
   "BTC/USDT": {
-    "prediction": 0.40196451628216967,
-    "signal": "HOLD",
+    "prediction": 0.38607526861204455,
+    "signal": "AVOID",
     "price": 68342.03,
     "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
+    "btc_dominance": 58.1998194193819
   },
   "ETH/USDT": {
-    "prediction": 0.45499477996815124,
+    "prediction": 0.45598066266509996,
     "signal": "HOLD",
     "price": 1983.19,
     "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
+    "btc_dominance": 58.1998194193819
   },
   "SOL/USDT": {
-    "prediction": 0.3883825415697701,
+    "prediction": 0.38410203136929616,
     "signal": "AVOID",
     "price": 86.93,
     "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
+    "btc_dominance": 58.1998194193819
   },
   "XRP/USDT": {
-    "prediction": 0.3388204293961426,
+    "prediction": 0.35813957544639075,
     "signal": "AVOID",
     "price": 1.36,
     "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
+    "btc_dominance": 58.1998194193819
   },
   "ADA/USDT": {
-    "prediction": 0.3792665650779856,
+    "prediction": 0.3776509164330951,
     "signal": "AVOID",
     "price": 0.2625,
     "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
+    "btc_dominance": 58.1998194193819
   },
   "AVAX/USDT": {
-    "prediction": 0.36380617303233453,
+    "prediction": 0.3651679855733847,
     "signal": "AVOID",
     "price": 9.17,
     "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
+    "btc_dominance": 58.1998194193819
+  },
+  "DOGE/USDT": {
+    "prediction": 0.3468829418786913,
+    "signal": "AVOID",
+    "price": 0.09,
+    "fear_greed": 38,
+    "btc_dominance": 58.1998194193819
   },
   "LINK/USDT": {
-    "prediction": 0.3795628670614583,
+    "prediction": 0.3766266952185034,
     "signal": "AVOID",
     "price": 8.81,
     "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
+    "btc_dominance": 58.1998194193819
   },
   "DOT/USDT": {
-    "prediction": 0.3806293820162803,
+    "prediction": 0.375500252161699,
     "signal": "AVOID",
     "price": 1.53,
     "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
-  },
-  "LTC/USDT": {
-    "prediction": 0.20947046957416574,
-    "signal": "AVOID",
-    "price": 58.470001220703125,
-    "fear_greed": 38,
-    "btc_dominance": 58.200333865005085
+    "btc_dominance": 58.1998194193819
   }
 }
