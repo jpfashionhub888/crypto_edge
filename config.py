@@ -18,7 +18,7 @@ CRYPTO_PAIRS = [
     'DOGE/USDT',
     'LINK/USDT',
     'DOT/USDT',
-    'UNI/USDT',
+    'SHIB/USDT',
 ]
 
 # ==========================================
