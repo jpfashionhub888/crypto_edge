@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300">
+    <title>CryptoEdge Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background:#0a0e1a;
+            color:#e2e8f0;
+            font-family:'Segoe UI',Arial,sans-serif;
+            padding:20px;
+            min-height:100vh;
+        }
+        .header {
+            background:#1a2235;
+            border:1px solid #1e2d45;
+            border-radius:16px;
+            padding:24px 32px;
+            margin-bottom:24px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        .header h1 {
+            color:#00d4ff;
+            font-size:26px;
+            font-weight:700;
+            letter-spacing:1px;
+        }
+        .live-dot {
+            width:10px;height:10px;
+            border-radius:50%;
+            background:#00ff88;
+            display:inline-block;
+            margin-right:6px;
+            animation:pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%,100% { opacity:1; }
+            50% { opacity:0.3; }
+        }
+        .cards {
+            display:grid;
+            grid-template-columns:repeat(6,1fr);
+            gap:16px;
+            margin-bottom:24px;
+        }
+        .card {
+            background:#111827;
+            border:1px solid #1e2d45;
+            border-radius:12px;
+            padding:16px;
+        }
+        .card-label {
+            color:#94a3b8;
+            font-size:10px;
+            letter-spacing:1px;
+            text-transform:uppercase;
+            margin-bottom:8px;
+        }
+        .card-value {
+            font-size:18px;
+            font-weight:700;
+            margin-bottom:4px;
+        }
+        .card-sub {
+            color:#94a3b8;
+            font-size:11px;
+        }
+        .market-bar {
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:16px;
+            margin-bottom:24px;
+        }
+        .market-card {
+            background:#111827;
+            border:1px solid #1e2d45;
+            border-radius:12px;
+            padding:20px;
+            text-align:center;
+        }
+        .charts-row {
+            display:grid;
+            grid-template-columns:2fr 1fr;
+            gap:16px;
+            margin-bottom:24px;
+        }
+        .panel {
+            background:#111827;
+            border:1px solid #1e2d45;
+            border-radius:12px;
+            padding:20px;
+            margin-bottom:20px;
+        }
+        .panel h3 {
+            color:#00d4ff;
+            font-size:15px;
+            font-weight:600;
+            letter-spacing:1px;
+            margin-bottom:16px;
+            padding-bottom:10px;
+            border-bottom:1px solid #1e2d45;
+        }
+        table {
+            width:100%;
+            border-collapse:collapse;
+            font-size:13px;
+        }
+        th {
+            background:#1a2235;
+            color:#94a3b8;
+            padding:10px;
+            text-align:center;
+            font-size:11px;
+            letter-spacing:1px;
+            text-transform:uppercase;
+            border:1px solid #1e2d45;
+        }
+        td {
+            padding:10px;
+            text-align:center;
+            border:1px solid #1e2d45;
+            color:#e2e8f0;
+        }
+        tr:hover td { background:#1a2235; }
+        .footer {
+            text-align:center;
+            color:#94a3b8;
+            font-size:12px;
+            padding:20px;
+            border-top:1px solid #1e2d45;
+            margin-top:20px;
+        }
+        @media(max-width:768px) {
+            .cards { grid-template-columns:repeat(2,1fr); }
+            .charts-row { grid-template-columns:1fr; }
+            .market-bar { grid-template-columns:1fr; }
+            .header { flex-direction:column; gap:10px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <div>
+        <h1>CryptoEdge Trading Dashboard</h1>
+        <p style="color:#94a3b8;font-size:13px;margin-top:4px">
+            AI-Powered Crypto Trading System | Coinbase
+        </p>
+    </div>
+    <div style="text-align:right">
+        <div>
+            <span class="live-dot"></span>
+            <span style="color:#00ff88;font-weight:600;font-size:13px">
+                LIVE 24/7
+            </span>
+        </div>
+        <p style="color:#94a3b8;font-size:11px;margin-top:4px">
+            Updated: 2026-05-08 22:47 UTC
+        </p>
+        <p style="color:#94a3b8;font-size:11px">
+            Last scan: 2026-05-08T22:47
+        </p>
+        <p style="color:#94a3b8;font-size:11px">
+            Auto-refresh: 5 min | Scans: Every 4 hours
+        </p>
+    </div>
+</div>
+
+<!-- SUMMARY CARDS -->
+<div class="cards">
+    <div class="card" style="border-top:3px solid #00d4ff">
+        <div class="card-label">Total Value</div>
+        <div class="card-value" style="color:#00d4ff">
+            $10,000.00
+        </div>
+        <div class="card-sub">Started: $10,000.00</div>
+    </div>
+    <div class="card" style="border-top:3px solid #3b82f6">
+        <div class="card-label">Cash (USDT)</div>
+        <div class="card-value" style="color:#3b82f6">
+            $10,000.00
+        </div>
+        <div class="card-sub">
+            100.0% of portfolio
+        </div>
+    </div>
+    <div class="card" style="border-top:3px solid #00ff88">
+        <div class="card-label">Total P&L</div>
+        <div class="card-value" style="color:#00ff88">
+            +$0.00
+        </div>
+        <div class="card-sub">+0.00% overall</div>
+    </div>
+    <div class="card" style="border-top:3px solid #00ff88">
+        <div class="card-label">Realized P&L</div>
+        <div class="card-value" style="color:#00ff88">
+            +$0.00
+        </div>
+        <div class="card-sub">From 0 closed trades</div>
+    </div>
+    <div class="card" style="border-top:3px solid #ffd700">
+        <div class="card-label">Open Positions</div>
+        <div class="card-value" style="color:#ffd700">
+            0
+        </div>
+        <div class="card-sub">Max 5 allowed</div>
+    </div>
+    <div class="card" style="border-top:3px solid #ff4444">
+        <div class="card-label">Win Rate</div>
+        <div class="card-value" style="color:#ff4444">
+            0%
+        </div>
+        <div class="card-sub">0W / 0L</div>
+    </div>
+</div>
+
+<!-- MARKET SENTIMENT -->
+<div class="market-bar">
+    <div class="market-card">
+        <div style="color:#94a3b8;font-size:11px;
+        letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">
+            Fear & Greed Index
+        </div>
+        <div style="font-size:48px;font-weight:700;color:#f97316">
+            38
+        </div>
+        <div style="color:#f97316;font-size:16px;
+        font-weight:600;margin-top:4px">
+            Fear
+        </div>
+        <div style="color:#94a3b8;font-size:11px;
+        margin-top:8px">
+            0=Extreme Fear | 100=Extreme Greed
+        </div>
+    </div>
+    <div class="market-card">
+        <div style="color:#94a3b8;font-size:11px;
+        letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">
+            Bitcoin Dominance
+        </div>
+        <div style="font-size:48px;font-weight:700;
+        color:#f97316">
+            58.2%
+        </div>
+        <div style="color:#94a3b8;font-size:13px;
+        margin-top:4px">
+            BTC Strong - Focus on BTC/ETH
+        </div>
+        <div style="color:#94a3b8;font-size:11px;
+        margin-top:8px">
+            High = Bitcoin leading | Low = Altcoins leading
+        </div>
+    </div>
+</div>
+
+<!-- CHARTS -->
+<div class="charts-row">
+    <div class="panel">
+        <h3>Portfolio Performance (USDT)</h3>
+        <canvas id="portfolio-chart" height="120"></canvas>
+    </div>
+    <div class="panel">
+        <h3>Portfolio Allocation</h3>
+        <canvas id="alloc-chart" height="120"></canvas>
+    </div>
+</div>
+
+<!-- OPEN POSITIONS -->
+<div class="panel">
+    <h3>Open Positions</h3>
+    <div style="overflow-x:auto">
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Units</th>
+                    <th>Entry Price</th>
+                    <th>Current Price</th>
+                    <th>Cost (USDT)</th>
+                    <th>P&L</th>
+                    <th>P&L %</th>
+                    <th>Entry Date</th>
+                </tr>
+            </thead>
+            <tbody>
+        <tr>
+            <td colspan="8" style="color:#94a3b8;
+            text-align:center;padding:20px">
+                No open positions - Market in FEAR mode
+            </td>
+        </tr></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- SIGNALS -->
+<div class="panel">
+    <h3>AI Signals (10 Crypto Pairs)</h3>
+    <div style="display:flex;gap:16px;margin-bottom:12px">
+        <span style="background:#1a2235;
+        border-radius:8px;padding:6px 14px;font-size:12px">
+            <span style="color:#00ff88">BUY: 0</span>
+        </span>
+        <span style="background:#1a2235;
+        border-radius:8px;padding:6px 14px;font-size:12px">
+            <span style="color:#ff4444">AVOID: 9</span>
+        </span>
+        <span style="background:#1a2235;
+        border-radius:8px;padding:6px 14px;font-size:12px">
+            <span style="color:#94a3b8">HOLD: 1</span>
+        </span>
+    </div>
+    <div style="overflow-x:auto">
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Signal</th>
+                    <th>AI Score</th>
+                    <th>Price (USDT)</th>
+                </tr>
+            </thead>
+            <tbody>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">ETH/USDT</td>
+            <td style="color:#94a3b8;font-weight:700">HOLD</td>
+            <td style="color:#e2e8f0">0.456</td>
+            <td style="color:#e2e8f0">$1,983.1900</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">BTC/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.386</td>
+            <td style="color:#e2e8f0">$68,342.0300</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">SOL/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.384</td>
+            <td style="color:#e2e8f0">$86.9300</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">ADA/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.378</td>
+            <td style="color:#e2e8f0">$0.2625</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">LINK/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.377</td>
+            <td style="color:#e2e8f0">$8.8100</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">DOT/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.376</td>
+            <td style="color:#e2e8f0">$1.5300</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">AVAX/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.365</td>
+            <td style="color:#e2e8f0">$9.1700</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">XRP/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.358</td>
+            <td style="color:#e2e8f0">$1.3600</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">SHIB/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.355</td>
+            <td style="color:#e2e8f0">$0.0000</td>
+        </tr>
+        <tr>
+            <td style="color:#00d4ff;font-weight:700">DOGE/USDT</td>
+            <td style="color:#ff4444;font-weight:700">AVOID</td>
+            <td style="color:#e2e8f0">0.347</td>
+            <td style="color:#e2e8f0">$0.0900</td>
+        </tr></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- TRADE HISTORY -->
+<div class="panel">
+    <h3>Trade History (Last 20)</h3>
+    <div style="overflow-x:auto">
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Action</th>
+                    <th>Symbol</th>
+                    <th>Units</th>
+                    <th>Price</th>
+                    <th>P&L</th>
+                    <th>Reason</th>
+                </tr>
+            </thead>
+            <tbody>
+        <tr>
+            <td colspan="7" style="color:#94a3b8;
+            text-align:center;padding:20px">
+                No trades yet - Waiting for BUY signals
+            </td>
+        </tr></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>
+        CryptoEdge V1 | 4-Model Ensemble (XGB+LGB+RF+CatBoost) |
+        Fear & Greed Index | BTC Dominance | AI Veto Agent |
+        Coinbase | GitHub Actions FREE | Scans Every 4 Hours 24/7
+    </p>
+</div>
+
+<script>
+const pCtx = document.getElementById('portfolio-chart').getContext('2d');
+const pData = [10000.0, 10000.0];
+const pLabels = ['Start', 'Now'];
+const pColor = pData[pData.length-1] >= pData[0]
+    ? '#00ff88' : '#ff4444';
+
+new Chart(pCtx, {
+    type: 'line',
+    data: {
+        labels: pLabels,
+        datasets: [{
+            data: pData,
+            borderColor: pColor,
+            backgroundColor: pColor + '15',
+            borderWidth: 2,
+            pointRadius: 4,
+            fill: true,
+            tension: 0.3,
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: {
+            y: {
+                grid : { color: '#1e2d45' },
+                ticks: {
+                    color: '#94a3b8',
+                    callback: v => '$' + v.toLocaleString()
+                },
+            },
+            x: {
+                grid : { color: '#1e2d45' },
+                ticks: { color: '#94a3b8' },
+            },
+        },
+    },
+});
+
+const aCtx = document.getElementById('alloc-chart').getContext('2d');
+new Chart(aCtx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Cash'],
+        datasets: [{
+            data: [10000.0],
+            backgroundColor: ['#3b82f6'],
+            borderColor: '#0a0e1a',
+            borderWidth: 2,
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'right',
+                labels: {
+                    color: '#e2e8f0',
+                    font: { size: 11 },
+                }
+            }
+        },
+    },
+});
+</script>
+</body>
+</html>
