@@ -15,10 +15,10 @@ CRYPTO_PAIRS = [
     'XRP/USDT',
     'ADA/USDT',
     'AVAX/USDT',
-    'POL/USDT',
+    'DOGE/USDT',
     'LINK/USDT',
     'DOT/USDT',
-    'LTC/USDT',
+    'UNI/USDT',
 ]
 
 # ==========================================

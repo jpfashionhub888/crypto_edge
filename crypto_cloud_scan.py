@@ -137,14 +137,12 @@ def run_crypto_scan():
             if len(y_train.unique()) < 2:
                 continue
 
-            # Load or train model
+            # Always retrain on GitHub (version safety)
+            # Cache only used within same session
             model = CryptoEnsemble()
-            if not model.load(symbol):
-                print(f"   {symbol}: Training models...")
-                model.train(X_train, y_train)
-                model.save(symbol)
-            else:
-                print(f"   {symbol}: Loading from cache...")
+            print(f"   {symbol}: Training models...")
+            model.train(X_train, y_train)
+            model.save(symbol)
 
             # Predict
             prediction    = model.predict(latest[available])

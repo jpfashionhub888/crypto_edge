@@ -33,7 +33,13 @@ class CryptoTelegram:
             url     = f"https://api.telegram.org/bot{self.token}/sendMessage"
             payload = {'chat_id': self.chat_id, 'text': text}
             r       = requests.post(url, json=payload, timeout=10)
-            return r.status_code == 200
+            print(f"   Telegram status: {r.status_code}")
+            if r.status_code == 200:
+                print("   Telegram sent successfully!")
+                return True
+            else:
+                print(f"   Telegram error: {r.text}")
+                return False
         except Exception as e:
             logger.warning(f"Telegram error: {e}")
             return False
