@@ -43,13 +43,16 @@ jobs:
           mkdir -p model_cache
           python crypto_cloud_scan.py
 
-      - name: Save state to repository
+      - name: Save state and generate dashboard
         if: always()
         run: |
           git config --global user.email "cryptoedge-bot@github.com"
           git config --global user.name "CryptoEdge Bot"
+          mkdir -p logs docs model_cache
+          python generate_dashboard.py || true
           git add -f logs/crypto_trades.json || true
           git add -f logs/crypto_signals.json || true
+          git add -f docs/index.html || true
           git add -f model_cache/ || true
           git diff --staged --quiet || git commit -m "Auto: CryptoEdge update $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin main || true
