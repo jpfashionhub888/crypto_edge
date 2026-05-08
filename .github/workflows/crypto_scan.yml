@@ -1,0 +1,57 @@
+name: CryptoEdge Scan
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'   # Every 4 hours 24/7
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install ccxt yfinance pandas numpy scikit-learn
+          pip install xgboost lightgbm catboost
+          pip install requests python-dotenv ta joblib
+          pip install groq
+
+      - name: Run CryptoEdge Scan
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          COINBASE_API_KEY: ${{ secrets.COINBASE_API_KEY }}
+          COINBASE_SECRET: ${{ secrets.COINBASE_SECRET }}
+        run: |
+          mkdir -p logs
+          mkdir -p model_cache
+          python crypto_cloud_scan.py
+
+      - name: Save state to repository
+        if: always()
+        run: |
+          git config --global user.email "cryptoedge-bot@github.com"
+          git config --global user.name "CryptoEdge Bot"
+          git add -f logs/crypto_trades.json || true
+          git add -f logs/crypto_signals.json || true
+          git add -f model_cache/ || true
+          git diff --staged --quiet || git commit -m "Auto: CryptoEdge update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin main || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
