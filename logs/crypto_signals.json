@@ -4,69 +4,69 @@
     "signal": "AVOID",
     "price": 68342.03,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "ETH/USDT": {
     "prediction": 0.45598066266509996,
     "signal": "HOLD",
     "price": 1983.19,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "SOL/USDT": {
     "prediction": 0.38410203136929616,
     "signal": "AVOID",
     "price": 86.93,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "XRP/USDT": {
     "prediction": 0.35813957544639075,
     "signal": "AVOID",
     "price": 1.36,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "ADA/USDT": {
     "prediction": 0.3776509164330951,
     "signal": "AVOID",
     "price": 0.2625,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "AVAX/USDT": {
     "prediction": 0.3651679855733847,
     "signal": "AVOID",
     "price": 9.17,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "DOGE/USDT": {
     "prediction": 0.3468829418786913,
     "signal": "AVOID",
     "price": 0.09,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "LINK/USDT": {
     "prediction": 0.3766266952185034,
     "signal": "AVOID",
     "price": 8.81,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "DOT/USDT": {
     "prediction": 0.375500252161699,
     "signal": "AVOID",
     "price": 1.53,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   },
   "SHIB/USDT": {
     "prediction": 0.3553179934629339,
     "signal": "AVOID",
     "price": 5.5e-06,
     "fear_greed": 38,
-    "btc_dominance": 58.22339505937849
+    "btc_dominance": 58.21162494998071
   }
 }
