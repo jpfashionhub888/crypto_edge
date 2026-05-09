@@ -22,6 +22,8 @@ logger = logging.getLogger(__name__)
 # Add parent to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from risk_circuit_breaker import RiskCircuitBreaker
+from critic_agent import CriticAgent
 from config import (
     CRYPTO_PAIRS, PREDICTION_THRESHOLD,
     STARTING_CAPITAL, GROQ_API_KEY,
@@ -51,6 +53,30 @@ def run_crypto_scan():
     )
     telegram = CryptoTelegram()
     trader.load_state()
+    # ==========================================
+    # RISK CIRCUIT BREAKER
+    # ==========================================
+    print("\n" + "="*60)
+    print("RISK CIRCUIT BREAKER")
+    print("="*60)
+
+    circuit_breaker = RiskCircuitBreaker()
+    temp_value = trader.capital + sum(
+        pos.get('units', 0) * pos.get(
+            'current_price', pos.get('entry_price', 0)
+        )
+        for pos in trader.positions.values()
+    )
+
+    circuit_triggered = circuit_breaker.check(
+        current_value    = temp_value,
+        starting_capital = trader.starting_capital,
+        telegram         = telegram,
+    )
+
+    if circuit_triggered:
+        can_trade = False
+        print("   Trading suspended by circuit breaker!")
 
     # ==========================================
     # PHASE 1: MARKET CONTEXT
@@ -371,6 +397,16 @@ APPROVE if: score >= 0.62, reasonable market conditions"""
             }
             for sym, d in signals.items()
         }, f, indent=2)
+    # ==========================================
+    # SUNDAY CRITIC REVIEW
+    # ==========================================
+    critic = CriticAgent()
+    critic.run_weekly_review(
+        trade_history    = trader.trade_history,
+        portfolio_value  = total_value,
+        starting_capital = trader.starting_capital,
+        telegram_bot     = telegram,
+    )
 
     print("\n" + "="*60)
     print("CRYPTOEDGE SCAN COMPLETE")
@@ -386,6 +422,12 @@ APPROVE if: score >= 0.62, reasonable market conditions"""
 def main():
     import pandas as pd
     globals()['pd'] = pd
+
+    day = datetime.now().strftime('%A')
+    if day == 'Saturday':
+        print("Saturday - Crypto markets open but taking rest day.")
+        # Crypto never closes but we rest on Saturday
+        return
 
     try:
         run_crypto_scan()

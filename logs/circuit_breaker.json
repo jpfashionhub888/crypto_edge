@@ -1,0 +1,9 @@
+{
+  "triggered": true,
+  "trigger_reason": "Daily loss limit hit: -12.00% (limit: -5%)",
+  "trigger_date": "2026-05-09T13:37:13.588010",
+  "daily_start": "2026-05-09",
+  "daily_start_val": 10000.0,
+  "weekly_start": "2026-05-04",
+  "weekly_start_val": 10050.0
+}
