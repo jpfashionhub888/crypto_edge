@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 69897.43,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "ETH/USDT": {
     "prediction": 0.2509951670690609,
     "signal": "AVOID",
     "price": 2035.83,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "SOL/USDT": {
     "prediction": 0.48553962253828786,
     "signal": "HOLD",
     "price": 85.82,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "XRP/USDT": {
     "prediction": 0.4264845092509671,
     "signal": "HOLD",
     "price": 1.3882,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "ADA/USDT": {
     "prediction": 0.38592704619938856,
     "signal": "AVOID",
     "price": 0.2615,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "AVAX/USDT": {
     "prediction": 0.33693884195342805,
     "signal": "AVOID",
     "price": 9.54,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "DOGE/USDT": {
     "prediction": 0.31591567563392337,
     "signal": "AVOID",
     "price": 0.0945,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "LINK/USDT": {
     "prediction": 0.2985784652756049,
     "signal": "AVOID",
     "price": 8.99,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "DOT/USDT": {
-    "prediction": 0.3012493313058153,
+    "prediction": 0.28930785015534266,
     "signal": "AVOID",
     "price": 1.52,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   },
   "SHIB/USDT": {
-    "prediction": 0.29934552054427555,
+    "prediction": 0.27395122913520403,
     "signal": "AVOID",
     "price": 5.6e-06,
     "fear_greed": 43,
-    "btc_dominance": 58.23643994557507
+    "btc_dominance": 58.23748784302051
   }
 }
