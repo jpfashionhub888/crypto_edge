@@ -1,7 +1,29 @@
 {
-  "capital": 10000.0,
+  "capital": 8709.043512517339,
   "starting_capital": 10000.0,
-  "positions": {},
-  "trade_history": [],
-  "saved_at": "2026-05-24T20:45:23.968086"
+  "positions": {
+    "BTC/USDT": {
+      "units": 0.01826841408993843,
+      "entry_price": 70595.44492,
+      "entry_date": "2026-05-25T02:37:55.283324",
+      "highest_price": 70595.44492,
+      "signal": 0.6441892211098903,
+      "cost": 1290.956487482662,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.07325465341085925,
+      "current_price": 70524.92
+    }
+  },
+  "trade_history": [
+    {
+      "action": "BUY",
+      "symbol": "BTC/USDT",
+      "units": 0.01826841408993843,
+      "price": 70595.44492,
+      "cost": 1290.956487482662,
+      "date": "2026-05-25T02:37:55.283338",
+      "reason": "FEAR"
+    }
+  ],
+  "saved_at": "2026-05-25T02:37:57.282127"
 }
