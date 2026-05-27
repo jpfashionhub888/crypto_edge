@@ -11,7 +11,7 @@
       "cost": 1290.956487482662,
       "reason": "FEAR",
       "stop_loss_pct": 0.07325465341085925,
-      "current_price": 68890.23
+      "current_price": 67892.58
     }
   },
   "trade_history": [
@@ -25,5 +25,5 @@
       "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-05-26T21:31:12.530091"
+  "saved_at": "2026-05-27T02:37:31.930332"
 }
