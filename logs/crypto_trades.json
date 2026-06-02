@@ -1,5 +1,5 @@
 {
-  "capital": 7661.013288208783,
+  "capital": 6703.475915469587,
   "starting_capital": 10000.0,
   "positions": {
     "LINK/USDT": {
@@ -23,6 +23,17 @@
       "reason": "FEAR",
       "stop_loss_pct": 0.1,
       "current_price": 1995.39
+    },
+    "BTC/USDT": {
+      "units": 0.014396580808405912,
+      "entry_price": 66444.99861999998,
+      "entry_date": "2026-06-02T16:04:36.269000",
+      "highest_price": 66444.99861999998,
+      "signal": 0.6236937144145739,
+      "cost": 957.5373727391961,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.08153113586444381,
+      "current_price": 66378.62
     }
   },
   "trade_history": [
@@ -63,7 +74,16 @@
       "cost": 1084.8447703201825,
       "date": "2026-06-02T02:46:01.854198",
       "reason": "FEAR"
+    },
+    {
+      "action": "BUY",
+      "symbol": "BTC/USDT",
+      "units": 0.014396580808405912,
+      "price": 66444.99861999998,
+      "cost": 957.5373727391961,
+      "date": "2026-06-02T16:04:36.269014",
+      "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-06-02T08:23:05.810195"
+  "saved_at": "2026-06-02T16:04:38.875196"
 }
