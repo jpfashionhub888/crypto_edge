@@ -6,34 +6,34 @@
       "units": 137.02631643817475,
       "entry_price": 8.55855,
       "entry_date": "2026-06-01T02:48:06.513482",
-      "highest_price": 8.55855,
+      "highest_price": 8.61,
       "signal": 0.6726197910611608,
       "cost": 1173.9193271324923,
       "reason": "FEAR",
       "stop_loss_pct": 0.1,
-      "current_price": 8.42
+      "current_price": 8.61
     },
     "ETH/USDT": {
       "units": 0.5425898350597587,
       "entry_price": 1997.38539,
       "entry_date": "2026-06-02T02:46:01.854186",
-      "highest_price": 1997.38539,
+      "highest_price": 2027.15,
       "signal": 0.6189663288235414,
       "cost": 1084.8447703201825,
       "reason": "FEAR",
       "stop_loss_pct": 0.1,
-      "current_price": 1986.66
+      "current_price": 2027.15
     },
     "BTC/USDT": {
       "units": 0.014396580808405912,
       "entry_price": 66444.99861999998,
       "entry_date": "2026-06-02T16:04:36.269000",
-      "highest_price": 66444.99861999998,
+      "highest_price": 66790.82,
       "signal": 0.6236937144145739,
       "cost": 957.5373727391961,
       "reason": "FEAR",
       "stop_loss_pct": 0.08153113586444381,
-      "current_price": 66040.51
+      "current_price": 66790.82
     }
   },
   "trade_history": [
@@ -85,5 +85,5 @@
       "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-06-03T22:26:21.405978"
+  "saved_at": "2026-06-04T02:49:37.110256"
 }
