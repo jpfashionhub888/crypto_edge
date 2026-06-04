@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 66790.82,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "ETH/USDT": {
     "prediction": 0.5308223982240758,
     "signal": "HOLD",
     "price": 2027.15,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "SOL/USDT": {
     "prediction": 0.36999641828424257,
     "signal": "AVOID",
     "price": 82.57,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "XRP/USDT": {
     "prediction": 0.356283043920984,
     "signal": "AVOID",
     "price": 1.3204,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "ADA/USDT": {
     "prediction": 0.3902471980300738,
     "signal": "AVOID",
     "price": 0.2438,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "AVAX/USDT": {
     "prediction": 0.42108181384256466,
     "signal": "HOLD",
     "price": 8.81,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "DOGE/USDT": {
     "prediction": 0.28523742082924186,
     "signal": "AVOID",
     "price": 0.0908,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "LINK/USDT": {
     "prediction": 0.448483527372447,
     "signal": "HOLD",
     "price": 8.61,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "DOT/USDT": {
     "prediction": 0.20224722941087148,
     "signal": "AVOID",
     "price": 1.27,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   },
   "SHIB/USDT": {
     "prediction": 0.33447397730936934,
     "signal": "AVOID",
     "price": 6e-06,
     "fear_greed": 12,
-    "btc_dominance": 55.75277772541084
+    "btc_dominance": 55.58236093899313
   }
 }
