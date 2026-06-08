@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 66961.55,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "ETH/USDT": {
     "prediction": 0.48316248113075017,
     "signal": "HOLD",
     "price": 2053.05,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "SOL/USDT": {
     "prediction": 0.40570971196816863,
     "signal": "HOLD",
     "price": 80.33,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "XRP/USDT": {
     "prediction": 0.3462466155151082,
     "signal": "AVOID",
     "price": 1.3175,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "ADA/USDT": {
     "prediction": 0.3769161684829724,
     "signal": "AVOID",
     "price": 0.2464,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "AVAX/USDT": {
     "prediction": 0.41594452450671865,
     "signal": "HOLD",
     "price": 8.91,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "DOGE/USDT": {
     "prediction": 0.3721086488578309,
     "signal": "AVOID",
     "price": 0.0915,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "LINK/USDT": {
     "prediction": 0.38231208336831907,
     "signal": "AVOID",
     "price": 8.65,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "DOT/USDT": {
     "prediction": 0.3575610916374714,
     "signal": "AVOID",
     "price": 1.24,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   },
   "SHIB/USDT": {
     "prediction": 0.29856594624004573,
     "signal": "AVOID",
     "price": 6e-06,
     "fear_greed": 8,
-    "btc_dominance": 56.27784539133216
+    "btc_dominance": 56.09762165288493
   }
 }
