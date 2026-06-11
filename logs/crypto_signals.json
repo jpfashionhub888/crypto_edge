@@ -4,69 +4,69 @@
     "signal": "AVOID",
     "price": 68882.04,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "ETH/USDT": {
     "prediction": 0.5480378298300401,
     "signal": "HOLD",
     "price": 2108.77,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "SOL/USDT": {
     "prediction": 0.38373830319088775,
     "signal": "AVOID",
     "price": 79.94,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "XRP/USDT": {
     "prediction": 0.5273659603120562,
     "signal": "HOLD",
     "price": 1.3233,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "ADA/USDT": {
     "prediction": 0.35637679568792385,
     "signal": "AVOID",
     "price": 0.2454,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "AVAX/USDT": {
     "prediction": 0.38677936480258435,
     "signal": "AVOID",
     "price": 8.88,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "DOGE/USDT": {
     "prediction": 0.30723390177702364,
     "signal": "AVOID",
     "price": 0.0908,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "LINK/USDT": {
     "prediction": 0.41526627489925605,
     "signal": "HOLD",
     "price": 8.84,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "DOT/USDT": {
     "prediction": 0.30047816339491157,
     "signal": "AVOID",
     "price": 1.3,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   },
   "SHIB/USDT": {
     "prediction": 0.31335138702808024,
     "signal": "AVOID",
     "price": 5.9e-06,
     "fear_greed": 12,
-    "btc_dominance": 56.25355656654397
+    "btc_dominance": 56.29805731327867
   }
 }
