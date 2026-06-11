@@ -11,7 +11,7 @@
       "cost": 1173.9193271324923,
       "reason": "FEAR",
       "stop_loss_pct": 0.1,
-      "current_price": 8.87
+      "current_price": 8.84
     },
     "ETH/USDT": {
       "units": 0.5425898350597587,
@@ -22,7 +22,7 @@
       "cost": 1084.8447703201825,
       "reason": "FEAR",
       "stop_loss_pct": 0.1,
-      "current_price": 2116.88
+      "current_price": 2108.77
     },
     "BTC/USDT": {
       "units": 0.014396580808405912,
@@ -33,7 +33,7 @@
       "cost": 957.5373727391961,
       "reason": "FEAR",
       "stop_loss_pct": 0.08153113586444381,
-      "current_price": 69024.66
+      "current_price": 68882.04
     }
   },
   "trade_history": [
@@ -85,5 +85,5 @@
       "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-06-10T21:53:40.306486"
+  "saved_at": "2026-06-11T02:46:38.747924"
 }
