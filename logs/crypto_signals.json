@@ -4,69 +4,69 @@
     "signal": "AVOID",
     "price": 71925.2,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "ETH/USDT": {
     "prediction": 0.4805948286462475,
     "signal": "HOLD",
     "price": 2242.95,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "SOL/USDT": {
     "prediction": 0.3137868342182044,
     "signal": "AVOID",
     "price": 85.74,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "XRP/USDT": {
     "prediction": 0.3737651610902405,
     "signal": "AVOID",
     "price": 1.3762,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "ADA/USDT": {
     "prediction": 0.1694040241045845,
     "signal": "AVOID",
     "price": 0.2638,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "AVAX/USDT": {
     "prediction": 0.39801554609253464,
     "signal": "AVOID",
     "price": 9.43,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "DOGE/USDT": {
     "prediction": 0.3628648867246147,
     "signal": "AVOID",
     "price": 0.0951,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "LINK/USDT": {
     "prediction": 0.4742894167174808,
     "signal": "HOLD",
     "price": 9.31,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "DOT/USDT": {
     "prediction": 0.30610084156386785,
     "signal": "AVOID",
     "price": 1.27,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   },
   "SHIB/USDT": {
     "prediction": 0.2917214495550752,
     "signal": "AVOID",
     "price": 6.1e-06,
     "fear_greed": 12,
-    "btc_dominance": 56.43136594305997
+    "btc_dominance": 56.403809705554984
   }
 }
