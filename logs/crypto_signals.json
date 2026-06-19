@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 74282.64,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "ETH/USDT": {
     "prediction": 0.4278071343300434,
     "signal": "HOLD",
     "price": 2322.28,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "SOL/USDT": {
     "prediction": 0.5559883344994537,
     "signal": "HOLD",
     "price": 83.71,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "XRP/USDT": {
     "prediction": 0.6513925199772954,
     "signal": "BUY",
     "price": 1.365,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "ADA/USDT": {
     "prediction": 0.4390769363801487,
     "signal": "HOLD",
     "price": 0.2398,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "AVAX/USDT": {
     "prediction": 0.37562876706012316,
     "signal": "AVOID",
     "price": 9.31,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "DOGE/USDT": {
     "prediction": 0.34379623464954673,
     "signal": "AVOID",
     "price": 0.0931,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "LINK/USDT": {
     "prediction": 0.6504564074387018,
     "signal": "BUY",
     "price": 9.07,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "DOT/USDT": {
     "prediction": 0.4599614920939159,
     "signal": "HOLD",
     "price": 1.18,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   },
   "SHIB/USDT": {
     "prediction": 0.5337668266664539,
     "signal": "HOLD",
     "price": 5.8e-06,
     "fear_greed": 14,
-    "btc_dominance": 55.953370738503516
+    "btc_dominance": 56.122201952541616
   }
 }
