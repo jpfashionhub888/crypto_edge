@@ -4,69 +4,69 @@
     "signal": "AVOID",
     "price": 77102.38,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "ETH/USDT": {
     "prediction": 0.40624705121681676,
     "signal": "HOLD",
     "price": 2420.06,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "SOL/USDT": {
     "prediction": 0.5527991910659416,
     "signal": "HOLD",
     "price": 88.83,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "XRP/USDT": {
     "prediction": 0.2854234853151475,
     "signal": "AVOID",
     "price": 1.4765,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "ADA/USDT": {
     "prediction": 0.2806264932308356,
     "signal": "AVOID",
     "price": 0.2587,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "AVAX/USDT": {
     "prediction": 0.33441086199550635,
     "signal": "AVOID",
     "price": 9.72,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "DOGE/USDT": {
     "prediction": 0.25647910051684253,
     "signal": "AVOID",
     "price": 0.0995,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "LINK/USDT": {
     "prediction": 0.4088352758875086,
     "signal": "HOLD",
     "price": 9.62,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "DOT/USDT": {
     "prediction": 0.12310150531145636,
     "signal": "AVOID",
     "price": 1.27,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   },
   "SHIB/USDT": {
     "prediction": 0.27180102274019213,
     "signal": "AVOID",
     "price": 6.3e-06,
     "fear_greed": 20,
-    "btc_dominance": 56.185761126183195
+    "btc_dominance": 56.40456353241724
   }
 }
