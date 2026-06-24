@@ -1,30 +1,7 @@
 {
-  "capital": 7994.745079126064,
+  "capital": 10235.772401238926,
   "starting_capital": 10000.0,
-  "positions": {
-    "XRP/USDT": {
-      "units": 869.3077200758627,
-      "entry_price": 1.3663649999999998,
-      "entry_date": "2026-06-19T03:28:53.961175",
-      "highest_price": 1.4765,
-      "signal": 0.6513925199772954,
-      "cost": 1188.9794345843973,
-      "reason": "EXTREME_FEAR",
-      "stop_loss_pct": 0.06732600732600728,
-      "current_price": 1.4333
-    },
-    "LINK/USDT": {
-      "units": 113.58587829639757,
-      "entry_price": 9.07907,
-      "entry_date": "2026-06-19T03:28:56.337702",
-      "highest_price": 9.62,
-      "signal": 0.6504564074387018,
-      "cost": 1032.2853942045388,
-      "reason": "EXTREME_FEAR",
-      "stop_loss_pct": 0.0976531737281462,
-      "current_price": 9.29
-    }
-  },
+  "positions": {},
   "trade_history": [
     {
       "action": "BUY",
@@ -123,7 +100,29 @@
       "pnl_pct": 0.1592336401496343,
       "date": "2026-06-22T02:52:55.707079",
       "reason": "take_profit"
+    },
+    {
+      "action": "SELL",
+      "symbol": "XRP/USDT",
+      "units": 869.3077200758627,
+      "price": 1.396602,
+      "revenue": 1212.8628235729166,
+      "pnl": 23.8833889885193,
+      "pnl_pct": 0.022129518832815588,
+      "date": "2026-06-24T02:30:13.966644",
+      "reason": "trailing_stop"
+    },
+    {
+      "action": "SELL",
+      "symbol": "LINK/USDT",
+      "units": 113.58587829639757,
+      "price": 9.06093,
+      "revenue": 1028.1644985399455,
+      "pnl": -4.120895664593263,
+      "pnl_pct": -0.001998001998001881,
+      "date": "2026-06-24T02:30:15.874468",
+      "reason": "trailing_stop"
     }
   ],
-  "saved_at": "2026-06-23T21:26:33.795614"
+  "saved_at": "2026-06-24T02:30:16.330926"
 }
