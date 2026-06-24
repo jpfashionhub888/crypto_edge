@@ -4,69 +4,69 @@
     "signal": "AVOID",
     "price": 73740.94,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "ETH/USDT": {
     "prediction": 0.49802740972402354,
     "signal": "HOLD",
     "price": 2263.75,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "SOL/USDT": {
     "prediction": 0.5758977864208783,
     "signal": "HOLD",
     "price": 83.46,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "XRP/USDT": {
     "prediction": 0.10126861062113666,
     "signal": "AVOID",
     "price": 1.398,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "ADA/USDT": {
     "prediction": 0.41134415526432316,
     "signal": "HOLD",
     "price": 0.2432,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "AVAX/USDT": {
     "prediction": 0.4479882798557169,
     "signal": "HOLD",
     "price": 9.02,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "DOGE/USDT": {
     "prediction": 0.34117703078678085,
     "signal": "AVOID",
     "price": 0.0931,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "LINK/USDT": {
     "prediction": 0.5801193930472361,
     "signal": "HOLD",
     "price": 9.07,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "DOT/USDT": {
     "prediction": 0.09035974142822062,
     "signal": "AVOID",
     "price": 1.28,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   },
   "SHIB/USDT": {
     "prediction": 0.4941381651146149,
     "signal": "HOLD",
     "price": 5.9e-06,
     "fear_greed": 17,
-    "btc_dominance": 56.22457409879613
+    "btc_dominance": 56.246190579442704
   }
 }
