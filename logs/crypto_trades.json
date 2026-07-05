@@ -1,7 +1,30 @@
 {
-  "capital": 10235.772401238926,
+  "capital": 7752.606087054648,
   "starting_capital": 10000.0,
-  "positions": {},
+  "positions": {
+    "ETH/USDT": {
+      "units": 0.5626816834647952,
+      "entry_price": 2262.3400799999995,
+      "entry_date": "2026-07-05T02:10:36.669143",
+      "highest_price": 2262.3400799999995,
+      "signal": 0.6212064753467889,
+      "cost": 1274.250302109063,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.07375592267277516,
+      "current_price": 2260.08
+    },
+    "LINK/USDT": {
+      "units": 132.4370803479115,
+      "entry_price": 9.11911,
+      "entry_date": "2026-07-05T02:10:39.059940",
+      "highest_price": 9.11911,
+      "signal": 0.673156740910465,
+      "cost": 1208.9160120752144,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.06288223302493341,
+      "current_price": 9.11
+    }
+  },
   "trade_history": [
     {
       "action": "BUY",
@@ -122,7 +145,25 @@
       "pnl_pct": -0.001998001998001881,
       "date": "2026-06-24T02:30:15.874468",
       "reason": "trailing_stop"
+    },
+    {
+      "action": "BUY",
+      "symbol": "ETH/USDT",
+      "units": 0.5626816834647952,
+      "price": 2262.3400799999995,
+      "cost": 1274.250302109063,
+      "date": "2026-07-05T02:10:36.669156",
+      "reason": "FEAR"
+    },
+    {
+      "action": "BUY",
+      "symbol": "LINK/USDT",
+      "units": 132.4370803479115,
+      "price": 9.11911,
+      "cost": 1208.9160120752144,
+      "date": "2026-07-05T02:10:39.059951",
+      "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-07-03T20:55:36.819803"
+  "saved_at": "2026-07-05T02:10:39.540324"
 }
