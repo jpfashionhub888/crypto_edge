@@ -2,11 +2,12 @@ name: CryptoEdge Scan
 
 on:
   schedule:
-    - cron: '0 */4 * * *'   # Every 4 hours 24/7
+    - cron: '0 */4 * * *'   # Every 4 hours 24/7 (crypto never closes)
   workflow_dispatch:
 
 jobs:
   scan:
+    name: CryptoEdge Scan + Audit
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -34,27 +35,54 @@ jobs:
       - name: Run CryptoEdge Scan
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          COINBASE_API_KEY: ${{ secrets.COINBASE_API_KEY }}
-          COINBASE_SECRET: ${{ secrets.COINBASE_SECRET }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
+          COINBASE_API_KEY:   ${{ secrets.COINBASE_API_KEY }}
+          COINBASE_SECRET:    ${{ secrets.COINBASE_SECRET }}
+          MPLCONFIGDIR:       /tmp/matplotlib_cache
         run: |
-          mkdir -p logs
-          mkdir -p model_cache
+          mkdir -p logs model_cache docs
           python crypto_cloud_scan.py
 
-      - name: Save state and generate dashboard
+      - name: Run Audit
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python audit_crypto.py || echo "Audit completed with warnings"
+
+      - name: Generate Dashboard
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python generate_dashboard.py || echo "Dashboard skipped"
+
+      - name: Save state and commit
         if: always()
         run: |
           git config --global user.email "cryptoedge-bot@github.com"
           git config --global user.name "CryptoEdge Bot"
           mkdir -p logs docs model_cache
-          python generate_dashboard.py || true
-          git add -f logs/crypto_trades.json || true
-          git add -f logs/crypto_signals.json || true
-          git add -f docs/index.html || true
-          git add -f model_cache/ || true
+          git add -f logs/crypto_trades.json   || true
+          git add -f logs/closed_trades.json   || true
+          git add -f logs/crypto_signals.json  || true
+          git add -f logs/bot_control.json     || true
+          git add -f logs/circuit_breaker.json || true
+          git add -f docs/index.html           || true
+          git add -f model_cache/              || true
           git diff --staged --quiet || git commit -m "Auto: CryptoEdge update $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin main || true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: crypto-scan-${{ github.run_number }}
+          path: logs/
+          retention-days: 30

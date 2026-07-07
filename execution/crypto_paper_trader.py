@@ -34,6 +34,7 @@ class CryptoPaperTrader:
         self.log_file         = log_file
         self.positions        = {}
         self.trade_history    = []
+        self.trade_tracker    = None   # set externally after init
 
     def get_position_size(self, price, signal_strength=1.0):
         """Calculate position size in USDT."""
@@ -134,6 +135,21 @@ class CryptoPaperTrader:
             f"   SELL {units:.4f} {symbol} @ ${fill_price:.2f}"
             f" PnL: ${pnl:+.2f} ({pnl_pct:+.1%}) [{direction}]"
         )
+
+        # -- Log to TradeTracker -------------------------------------------
+        if self.trade_tracker:
+            try:
+                self.trade_tracker.record_trade(
+                    symbol      = symbol,
+                    entry_price = entry,
+                    exit_price  = fill_price,
+                    units       = units,
+                    reason      = reason.upper().replace('_', ' '),
+                    entry_time  = pos.get('entry_date'),
+                    exit_time   = datetime.now(timezone.utc if hasattr(__import__('datetime'), 'timezone') else None).isoformat(),
+                )
+            except Exception as e:
+                logger.warning('TradeTracker record failed: %s', e)
 
         del self.positions[symbol]
         return True

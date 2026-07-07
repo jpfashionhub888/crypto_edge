@@ -28,6 +28,8 @@ from config import (
     CRYPTO_PAIRS, PREDICTION_THRESHOLD,
     STARTING_CAPITAL, GROQ_API_KEY,
 )
+from monitoring.command_listener import start_command_listener
+from monitoring.trade_tracker import TradeTracker
 
 
 def run_crypto_scan():
@@ -53,6 +55,41 @@ def run_crypto_scan():
     )
     telegram = CryptoTelegram()
     trader.load_state()
+
+    # ==========================================
+    # TELEGRAM KILL SWITCH
+    # ==========================================
+    def _get_portfolio():
+        cash  = trader.capital
+        start = trader.starting_capital
+        pos_out = {}
+        for sym, pos in trader.positions.items():
+            entry = pos.get('entry_price', 0)
+            units = pos.get('units', 0)
+            curr  = pos.get('current_price', entry)
+            pos_out[sym] = {
+                'units'         : units,
+                'avg_entry'     : entry,
+                'unrealized_pnl': (curr - entry) * units,
+            }
+        return {
+            'value'       : cash,
+            'cash'        : cash,
+            'pnl'         : cash - start,
+            'n_positions' : len(trader.positions),
+            'positions'   : pos_out,
+        }
+
+    ctrl_state, listener = start_command_listener(get_portfolio_fn=_get_portfolio)
+    listener.start()
+    logger.info('Telegram command listener started')
+
+    # Initialise trade tracker
+    trade_tracker = TradeTracker(
+        trades_file='logs/closed_trades.json',
+        telegram=telegram,
+    )
+    trader.trade_tracker = trade_tracker
     # ==========================================
     # RISK CIRCUIT BREAKER
     # ==========================================
@@ -76,7 +113,18 @@ def run_crypto_scan():
 
     if circuit_triggered:
         can_trade = False
-        print("   Trading suspended by circuit breaker!")
+        print('   Trading suspended by circuit breaker!')
+
+    # -- Kill-switch check -------------------------------------------------
+    if ctrl_state.is_paused:
+        print('\n[PAUSED] Bot paused via /pause — skipping all new entries.')
+        telegram.send_message(
+            '[PAUSED] Scan ran but new entries SKIPPED — bot is paused.\n'
+            'Send /resume to re-enable.'
+        )
+        trader.save_state()
+        listener.stop()
+        return
 
     # ==========================================
     # PHASE 1: MARKET CONTEXT
@@ -407,6 +455,8 @@ APPROVE if: score >= 0.62, reasonable market conditions"""
         starting_capital = trader.starting_capital,
         telegram_bot     = telegram,
     )
+
+    listener.stop()
 
     print("\n" + "="*60)
     print("CRYPTOEDGE SCAN COMPLETE")
