@@ -6,12 +6,12 @@
       "units": 0.5626816834647952,
       "entry_price": 2262.3400799999995,
       "entry_date": "2026-07-05T02:10:36.669143",
-      "highest_price": 2317.37,
+      "highest_price": 2320.92,
       "signal": 0.6212064753467889,
       "cost": 1274.250302109063,
       "reason": "FEAR",
       "stop_loss_pct": 0.07375592267277516,
-      "current_price": 2317.37
+      "current_price": 2320.92
     },
     "LINK/USDT": {
       "units": 132.4370803479115,
@@ -22,7 +22,7 @@
       "cost": 1208.9160120752144,
       "reason": "FEAR",
       "stop_loss_pct": 0.06288223302493341,
-      "current_price": 9.17
+      "current_price": 9.12
     }
   },
   "trade_history": [
@@ -165,5 +165,5 @@
       "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-07-07T21:17:35.838220"
+  "saved_at": "2026-07-08T01:52:06.248512"
 }
