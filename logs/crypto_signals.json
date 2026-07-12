@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 80012.56,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "ETH/USDT": {
     "prediction": 0.606604328002708,
     "signal": "BUY",
     "price": 2290.76,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "SOL/USDT": {
     "prediction": 0.5085457835319225,
     "signal": "HOLD",
     "price": 88.43,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "XRP/USDT": {
     "prediction": 0.5747451982922631,
     "signal": "HOLD",
     "price": 1.3886,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "ADA/USDT": {
     "prediction": 0.1856395642411906,
     "signal": "AVOID",
     "price": 0.263,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "AVAX/USDT": {
     "prediction": 0.3256146890329887,
     "signal": "AVOID",
     "price": 9.52,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "DOGE/USDT": {
     "prediction": 0.502724575404172,
     "signal": "HOLD",
     "price": 0.108,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "LINK/USDT": {
     "prediction": 0.46399725895845245,
     "signal": "HOLD",
     "price": 9.85,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "DOT/USDT": {
     "prediction": 0.24094726343868192,
     "signal": "AVOID",
     "price": 1.39,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   },
   "SHIB/USDT": {
     "prediction": 0.17477289659915005,
     "signal": "AVOID",
     "price": 6.3e-06,
     "fear_greed": 26,
-    "btc_dominance": 56.26456109068854
+    "btc_dominance": 56.26531388577904
   }
 }
