@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 80158.1,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "ETH/USDT": {
     "prediction": 0.673964093197319,
     "signal": "BUY",
     "price": 2306.83,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "SOL/USDT": {
     "prediction": 0.4664492234759674,
     "signal": "HOLD",
     "price": 92.01,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "XRP/USDT": {
     "prediction": 0.6380935374296183,
     "signal": "BUY",
     "price": 1.4203,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "ADA/USDT": {
     "prediction": 0.2005257992331425,
     "signal": "AVOID",
     "price": 0.2735,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "AVAX/USDT": {
     "prediction": 0.4244488285439619,
     "signal": "HOLD",
     "price": 9.94,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "DOGE/USDT": {
     "prediction": 0.5968017861188422,
     "signal": "HOLD",
     "price": 0.1095,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "LINK/USDT": {
     "prediction": 0.4427904938911281,
     "signal": "HOLD",
     "price": 10.33,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "DOT/USDT": {
     "prediction": 0.2778557990309135,
     "signal": "AVOID",
     "price": 1.34,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   },
   "SHIB/USDT": {
     "prediction": 0.17615440040759417,
     "signal": "AVOID",
     "price": 6.5e-06,
     "fear_greed": 28,
-    "btc_dominance": 56.12748458032867
+    "btc_dominance": 56.03715297386276
   }
 }
