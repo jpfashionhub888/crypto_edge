@@ -11,29 +11,29 @@
       "cost": 1274.250302109063,
       "reason": "FEAR",
       "stop_loss_pct": 0.07375592267277516,
-      "current_price": 2306.83
+      "current_price": 2327.79
     },
     "LINK/USDT": {
       "units": 132.4370803479115,
       "entry_price": 9.11911,
       "entry_date": "2026-07-05T02:10:39.059940",
-      "highest_price": 10.33,
+      "highest_price": 10.38,
       "signal": 0.673156740910465,
       "cost": 1208.9160120752144,
       "reason": "FEAR",
       "stop_loss_pct": 0.06288223302493341,
-      "current_price": 10.33
+      "current_price": 10.38
     },
     "XRP/USDT": {
       "units": 696.5975980267679,
       "entry_price": 1.4217202999999998,
       "entry_date": "2026-07-13T01:55:28.514553",
-      "highest_price": 1.4217202999999998,
+      "highest_price": 1.4218,
       "signal": 0.6380935374296183,
       "cost": 991.3573129919415,
       "reason": "FEAR",
       "stop_loss_pct": 0.04805825730982386,
-      "current_price": 1.4203
+      "current_price": 1.4218
     }
   },
   "trade_history": [
@@ -185,5 +185,5 @@
       "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-07-13T20:52:19.599223"
+  "saved_at": "2026-07-14T01:32:40.033751"
 }
