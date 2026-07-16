@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 81739.97,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "ETH/USDT": {
     "prediction": 0.6775831006505504,
     "signal": "BUY",
     "price": 2339.2,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "SOL/USDT": {
     "prediction": 0.41839947649209785,
     "signal": "HOLD",
     "price": 97.27,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "XRP/USDT": {
     "prediction": 0.5637154817204797,
     "signal": "HOLD",
     "price": 1.4775,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "ADA/USDT": {
     "prediction": 0.3180173487477495,
     "signal": "AVOID",
     "price": 0.2802,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "AVAX/USDT": {
     "prediction": 0.4019002097324408,
     "signal": "HOLD",
     "price": 10.13,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "DOGE/USDT": {
     "prediction": 0.5467264316242837,
     "signal": "HOLD",
     "price": 0.1113,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "LINK/USDT": {
     "prediction": 0.3192007815111645,
     "signal": "AVOID",
     "price": 10.59,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "DOT/USDT": {
     "prediction": 0.3057354814285666,
     "signal": "AVOID",
     "price": 1.34,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   },
   "SHIB/USDT": {
     "prediction": 0.13327371294037954,
     "signal": "AVOID",
     "price": 6.6e-06,
     "fear_greed": 25,
-    "btc_dominance": 56.3291145343208
+    "btc_dominance": 56.27497658143103
   }
 }
