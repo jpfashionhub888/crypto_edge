@@ -11,7 +11,7 @@
       "cost": 1274.250302109063,
       "reason": "FEAR",
       "stop_loss_pct": 0.07375592267277516,
-      "current_price": 2339.2
+      "current_price": 2276.92
     },
     "XRP/USDT": {
       "units": 696.5975980267679,
@@ -22,7 +22,7 @@
       "cost": 991.3573129919415,
       "reason": "FEAR",
       "stop_loss_pct": 0.04805825730982386,
-      "current_price": 1.4775
+      "current_price": 1.4385
     }
   },
   "trade_history": [
@@ -185,5 +185,5 @@
       "reason": "take_profit"
     }
   ],
-  "saved_at": "2026-07-16T20:48:57.481693"
+  "saved_at": "2026-07-17T01:52:44.888510"
 }
