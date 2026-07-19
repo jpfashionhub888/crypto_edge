@@ -11,18 +11,18 @@
       "cost": 1274.250302109063,
       "reason": "FEAR",
       "stop_loss_pct": 0.07375592267277516,
-      "current_price": 2276.92
+      "current_price": 2284.46
     },
     "XRP/USDT": {
       "units": 696.5975980267679,
       "entry_price": 1.4217202999999998,
       "entry_date": "2026-07-13T01:55:28.514553",
-      "highest_price": 1.4775,
+      "highest_price": 1.4866,
       "signal": 0.6380935374296183,
       "cost": 991.3573129919415,
       "reason": "FEAR",
       "stop_loss_pct": 0.04805825730982386,
-      "current_price": 1.4385
+      "current_price": 1.4866
     }
   },
   "trade_history": [
@@ -185,5 +185,5 @@
       "reason": "take_profit"
     }
   ],
-  "saved_at": "2026-07-17T20:45:44.245957"
+  "saved_at": "2026-07-19T01:51:00.451039"
 }
