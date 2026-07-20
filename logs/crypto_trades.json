@@ -1,18 +1,7 @@
 {
-  "capital": 8178.13624411516,
+  "capital": 9427.139831655777,
   "starting_capital": 10000.0,
   "positions": {
-    "ETH/USDT": {
-      "units": 0.5626816834647952,
-      "entry_price": 2262.3400799999995,
-      "entry_date": "2026-07-05T02:10:36.669143",
-      "highest_price": 2370.45,
-      "signal": 0.6212064753467889,
-      "cost": 1274.250302109063,
-      "reason": "FEAR",
-      "stop_loss_pct": 0.07375592267277516,
-      "current_price": 2284.46
-    },
     "XRP/USDT": {
       "units": 696.5975980267679,
       "entry_price": 1.4217202999999998,
@@ -22,7 +11,7 @@
       "cost": 991.3573129919415,
       "reason": "FEAR",
       "stop_loss_pct": 0.04805825730982386,
-      "current_price": 1.4866
+      "current_price": 1.434
     }
   },
   "trade_history": [
@@ -183,7 +172,18 @@
       "pnl_pct": 0.1743777627421977,
       "date": "2026-07-15T01:29:06.081254",
       "reason": "take_profit"
+    },
+    {
+      "action": "SELL",
+      "symbol": "ETH/USDT",
+      "units": 0.5626816834647952,
+      "price": 2221.9558199999997,
+      "revenue": 1249.0035875406174,
+      "pnl": -25.246714568445668,
+      "pnl_pct": -0.017850658420903644,
+      "date": "2026-07-20T02:08:08.385509",
+      "reason": "trailing_stop"
     }
   ],
-  "saved_at": "2026-07-19T20:40:29.168717"
+  "saved_at": "2026-07-20T02:08:09.305564"
 }
