@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 78152.16,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "ETH/USDT": {
     "prediction": 0.5992709966535082,
     "signal": "HOLD",
     "price": 2184.17,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "SOL/USDT": {
     "prediction": 0.5066646162924946,
     "signal": "HOLD",
     "price": 86.54,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "XRP/USDT": {
     "prediction": 0.5052941357426985,
     "signal": "HOLD",
     "price": 1.417,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "ADA/USDT": {
     "prediction": 0.5130409934832185,
     "signal": "HOLD",
     "price": 0.2542,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "AVAX/USDT": {
     "prediction": 0.48522455423904925,
     "signal": "HOLD",
     "price": 9.29,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "DOGE/USDT": {
     "prediction": 0.45700189785747986,
     "signal": "HOLD",
     "price": 0.1096,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "LINK/USDT": {
     "prediction": 0.4743069204655557,
     "signal": "HOLD",
     "price": 9.73,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "DOT/USDT": {
     "prediction": 0.40456333094880836,
     "signal": "HOLD",
     "price": 1.24,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   },
   "SHIB/USDT": {
     "prediction": 0.451356807970835,
     "signal": "HOLD",
     "price": 5.8e-06,
     "fear_greed": 25,
-    "btc_dominance": 56.55214334988299
+    "btc_dominance": 56.73696737319419
   }
 }
