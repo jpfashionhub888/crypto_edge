@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 77016.18,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "ETH/USDT": {
     "prediction": 0.5739421068702498,
     "signal": "HOLD",
     "price": 2130.66,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "SOL/USDT": {
     "prediction": 0.43920887637800404,
     "signal": "HOLD",
     "price": 85.44,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "XRP/USDT": {
     "prediction": 0.5848526750357008,
     "signal": "HOLD",
     "price": 1.3899,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "ADA/USDT": {
     "prediction": 0.48019155495259436,
     "signal": "HOLD",
     "price": 0.2518,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "AVAX/USDT": {
     "prediction": 0.5395779981229613,
     "signal": "HOLD",
     "price": 9.26,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "DOGE/USDT": {
     "prediction": 0.48088833913996876,
     "signal": "HOLD",
     "price": 0.105,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "LINK/USDT": {
     "prediction": 0.43988900602192077,
     "signal": "HOLD",
     "price": 9.61,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "DOT/USDT": {
     "prediction": 0.27663494477313627,
     "signal": "AVOID",
     "price": 1.23,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   },
   "SHIB/USDT": {
     "prediction": 0.41614522561482264,
     "signal": "HOLD",
     "price": 5.7e-06,
     "fear_greed": 31,
-    "btc_dominance": 56.59465198673806
+    "btc_dominance": 56.58152282809065
   }
 }
