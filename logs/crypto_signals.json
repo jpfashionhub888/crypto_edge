@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 76810.88,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "ETH/USDT": {
     "prediction": 0.5824814726983831,
     "signal": "HOLD",
     "price": 2110.63,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "SOL/USDT": {
     "prediction": 0.40753147775252,
     "signal": "HOLD",
     "price": 84.28,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "XRP/USDT": {
     "prediction": 0.56953454043528,
     "signal": "HOLD",
     "price": 1.3635,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "ADA/USDT": {
     "prediction": 0.5080596905569577,
     "signal": "HOLD",
     "price": 0.2479,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "AVAX/USDT": {
     "prediction": 0.4206016703763864,
     "signal": "HOLD",
     "price": 9.1,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "DOGE/USDT": {
     "prediction": 0.562508000412829,
     "signal": "HOLD",
     "price": 0.1031,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "LINK/USDT": {
     "prediction": 0.44018532590974496,
     "signal": "HOLD",
     "price": 9.43,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "DOT/USDT": {
     "prediction": 0.19041822071977849,
     "signal": "AVOID",
     "price": 1.25,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   },
   "SHIB/USDT": {
     "prediction": 0.28807583419823546,
     "signal": "AVOID",
     "price": 5.7e-06,
     "fear_greed": 28,
-    "btc_dominance": 56.624965743357606
+    "btc_dominance": 56.49340461612453
   }
 }
