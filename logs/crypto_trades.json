@@ -1,7 +1,19 @@
 {
-  "capital": 10412.245457545696,
+  "capital": 8972.261313276194,
   "starting_capital": 10000.0,
-  "positions": {},
+  "positions": {
+    "XRP/USDT": {
+      "units": 1049.3672801611176,
+      "entry_price": 1.3708694999999997,
+      "entry_date": "2026-07-26T01:56:01.369222",
+      "highest_price": 1.3708694999999997,
+      "signal": 0.6901049807364972,
+      "cost": 1439.9841442695017,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.07823501799405413,
+      "current_price": 1.3695
+    }
+  },
   "trade_history": [
     {
       "action": "BUY",
@@ -182,7 +194,16 @@
       "pnl_pct": -0.004316812526345576,
       "date": "2026-07-21T01:51:09.062811",
       "reason": "trailing_stop"
+    },
+    {
+      "action": "BUY",
+      "symbol": "XRP/USDT",
+      "units": 1049.3672801611176,
+      "price": 1.3708694999999997,
+      "cost": 1439.9841442695017,
+      "date": "2026-07-26T01:56:01.369234",
+      "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-07-24T20:57:41.338392"
+  "saved_at": "2026-07-26T01:56:01.778892"
 }
