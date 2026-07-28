@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 76741.8,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "ETH/USDT": {
     "prediction": 0.5867199855107006,
     "signal": "HOLD",
     "price": 2117.25,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "SOL/USDT": {
     "prediction": 0.44596393470755635,
     "signal": "HOLD",
     "price": 85.68,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "XRP/USDT": {
     "prediction": 0.5498647164432223,
     "signal": "HOLD",
     "price": 1.3584,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "ADA/USDT": {
     "prediction": 0.44335458932828403,
     "signal": "HOLD",
     "price": 0.2461,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "AVAX/USDT": {
     "prediction": 0.39555745900510547,
     "signal": "AVOID",
     "price": 9.39,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "DOGE/USDT": {
     "prediction": 0.4244027936137115,
     "signal": "HOLD",
     "price": 0.1028,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "LINK/USDT": {
     "prediction": 0.6324238362309634,
     "signal": "BUY",
     "price": 9.56,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "DOT/USDT": {
     "prediction": 0.3649376751404097,
     "signal": "AVOID",
     "price": 1.25,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   },
   "SHIB/USDT": {
     "prediction": 0.5337393515626097,
     "signal": "HOLD",
     "price": 5.6e-06,
     "fear_greed": 29,
-    "btc_dominance": 56.39390994396001
+    "btc_dominance": 56.37439692424723
   }
 }
