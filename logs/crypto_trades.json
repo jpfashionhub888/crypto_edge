@@ -1,5 +1,5 @@
 {
-  "capital": 8972.261313276194,
+  "capital": 7835.136085772288,
   "starting_capital": 10000.0,
   "positions": {
     "XRP/USDT": {
@@ -11,7 +11,18 @@
       "cost": 1439.9841442695017,
       "reason": "FEAR",
       "stop_loss_pct": 0.07823501799405413,
-      "current_price": 1.3346
+      "current_price": 1.3584
+    },
+    "LINK/USDT": {
+      "units": 118.70861756085341,
+      "entry_price": 9.56956,
+      "entry_date": "2026-07-28T01:46:14.222384",
+      "highest_price": 9.56956,
+      "signal": 0.6324238362309634,
+      "cost": 1137.1252275039058,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.1,
+      "current_price": 9.56
     }
   },
   "trade_history": [
@@ -203,7 +214,16 @@
       "cost": 1439.9841442695017,
       "date": "2026-07-26T01:56:01.369234",
       "reason": "FEAR"
+    },
+    {
+      "action": "BUY",
+      "symbol": "LINK/USDT",
+      "units": 118.70861756085341,
+      "price": 9.56956,
+      "cost": 1137.1252275039058,
+      "date": "2026-07-28T01:46:14.222396",
+      "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-07-27T21:05:29.562188"
+  "saved_at": "2026-07-28T01:46:14.780627"
 }
