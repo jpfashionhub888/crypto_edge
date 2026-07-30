@@ -4,69 +4,69 @@
     "signal": "BUY",
     "price": 77306.71,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "ETH/USDT": {
     "prediction": 0.5766307824520102,
     "signal": "HOLD",
     "price": 2112.94,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "SOL/USDT": {
     "prediction": 0.47295407181684423,
     "signal": "HOLD",
     "price": 85.07,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "XRP/USDT": {
     "prediction": 0.4597108333212869,
     "signal": "HOLD",
     "price": 1.3475,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "ADA/USDT": {
     "prediction": 0.5234406300019414,
     "signal": "HOLD",
     "price": 0.2435,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "AVAX/USDT": {
     "prediction": 0.4670259924735067,
     "signal": "HOLD",
     "price": 9.31,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "DOGE/USDT": {
     "prediction": 0.42645680176592166,
     "signal": "HOLD",
     "price": 0.1022,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "LINK/USDT": {
     "prediction": 0.5317174941704419,
     "signal": "HOLD",
     "price": 9.47,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "DOT/USDT": {
     "prediction": 0.31736669449680965,
     "signal": "AVOID",
     "price": 1.26,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   },
   "SHIB/USDT": {
     "prediction": 0.42728821515226256,
     "signal": "HOLD",
     "price": 5.5e-06,
     "fear_greed": 28,
-    "btc_dominance": 56.427533026056196
+    "btc_dominance": 56.51961269693307
   }
 }
