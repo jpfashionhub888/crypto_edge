@@ -11,7 +11,7 @@
       "cost": 1439.9841442695017,
       "reason": "FEAR",
       "stop_loss_pct": 0.07823501799405413,
-      "current_price": 1.3475
+      "current_price": 1.3306
     },
     "LINK/USDT": {
       "units": 118.70861756085341,
@@ -22,7 +22,7 @@
       "cost": 1137.1252275039058,
       "reason": "FEAR",
       "stop_loss_pct": 0.1,
-      "current_price": 9.47
+      "current_price": 9.39
     },
     "BTC/USDT": {
       "units": 0.012460954831307575,
@@ -33,7 +33,7 @@
       "cost": 965.2430156253489,
       "reason": "FEAR",
       "stop_loss_pct": 0.051065240187892054,
-      "current_price": 77306.71
+      "current_price": 75936.62
     }
   },
   "trade_history": [
@@ -245,5 +245,5 @@
       "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-07-30T20:58:40.399302"
+  "saved_at": "2026-07-31T01:57:52.728517"
 }
