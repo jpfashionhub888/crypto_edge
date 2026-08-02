@@ -1,39 +1,17 @@
 {
-  "capital": 6869.89307014694,
+  "capital": 9245.91075253419,
   "starting_capital": 10000.0,
   "positions": {
-    "XRP/USDT": {
-      "units": 1049.3672801611176,
-      "entry_price": 1.3708694999999997,
-      "entry_date": "2026-07-26T01:56:01.369222",
-      "highest_price": 1.3708694999999997,
-      "signal": 0.6901049807364972,
-      "cost": 1439.9841442695017,
+    "ADA/USDT": {
+      "units": 4182.375109098084,
+      "entry_price": 0.23493469999999997,
+      "entry_date": "2026-08-02T01:55:01.195340",
+      "highest_price": 0.23493469999999997,
+      "signal": 0.7144241024440899,
+      "cost": 983.5676265849688,
       "reason": "FEAR",
-      "stop_loss_pct": 0.07823501799405413,
-      "current_price": 1.3306
-    },
-    "LINK/USDT": {
-      "units": 118.70861756085341,
-      "entry_price": 9.56956,
-      "entry_date": "2026-07-28T01:46:14.222384",
-      "highest_price": 9.56956,
-      "signal": 0.6324238362309634,
-      "cost": 1137.1252275039058,
-      "reason": "FEAR",
-      "stop_loss_pct": 0.1,
-      "current_price": 9.39
-    },
-    "BTC/USDT": {
-      "units": 0.012460954831307575,
-      "entry_price": 77384.01671,
-      "entry_date": "2026-07-30T01:31:00.258845",
-      "highest_price": 77384.01671,
-      "signal": 0.6147407083434482,
-      "cost": 965.2430156253489,
-      "reason": "FEAR",
-      "stop_loss_pct": 0.051065240187892054,
-      "current_price": 75936.62
+      "stop_loss_pct": 0.07937184247367467,
+      "current_price": 0.2347
     }
   },
   "trade_history": [
@@ -243,7 +221,49 @@
       "cost": 965.2430156253489,
       "date": "2026-07-30T01:31:00.258859",
       "reason": "FEAR"
+    },
+    {
+      "action": "BUY",
+      "symbol": "ADA/USDT",
+      "units": 4182.375109098084,
+      "price": 0.23493469999999997,
+      "cost": 983.5676265849688,
+      "date": "2026-08-02T01:55:01.195353",
+      "reason": "FEAR"
+    },
+    {
+      "action": "SELL",
+      "symbol": "XRP/USDT",
+      "units": 1049.3672801611176,
+      "price": 1.3140846,
+      "revenue": 1377.5784252210065,
+      "pnl": -62.40571904849526,
+      "pnl_pct": -0.0414225424083035,
+      "date": "2026-08-02T01:55:01.902370",
+      "reason": "trailing_stop"
+    },
+    {
+      "action": "SELL",
+      "symbol": "LINK/USDT",
+      "units": 118.70861756085341,
+      "price": 8.991,
+      "revenue": 1066.2418713091433,
+      "pnl": -70.88335619476243,
+      "pnl_pct": -0.060458370081801,
+      "date": "2026-08-02T01:55:02.424476",
+      "reason": "trailing_stop"
+    },
+    {
+      "action": "SELL",
+      "symbol": "BTC/USDT",
+      "units": 0.012460954831307575,
+      "price": 73564.32204,
+      "revenue": 915.7650124420682,
+      "pnl": -49.47800318328075,
+      "pnl_pct": -0.049360253349402514,
+      "date": "2026-08-02T01:55:02.932278",
+      "reason": "trailing_stop"
     }
   ],
-  "saved_at": "2026-07-31T20:56:09.824807"
+  "saved_at": "2026-08-02T01:55:03.439991"
 }
