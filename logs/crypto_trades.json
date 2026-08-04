@@ -1,17 +1,28 @@
 {
-  "capital": 9245.91075253419,
+  "capital": 8078.951549864391,
   "starting_capital": 10000.0,
   "positions": {
     "ADA/USDT": {
       "units": 4182.375109098084,
       "entry_price": 0.23493469999999997,
       "entry_date": "2026-08-02T01:55:01.195340",
-      "highest_price": 0.23493469999999997,
+      "highest_price": 0.2362,
       "signal": 0.7144241024440899,
       "cost": 983.5676265849688,
       "reason": "FEAR",
       "stop_loss_pct": 0.07937184247367467,
-      "current_price": 0.233
+      "current_price": 0.2362
+    },
+    "BTC/USDT": {
+      "units": 0.015762379414620026,
+      "entry_price": 73960.49660999999,
+      "entry_date": "2026-08-04T01:32:22.805156",
+      "highest_price": 73960.49660999999,
+      "signal": 0.6298074963360683,
+      "cost": 1166.9592026697985,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.04759526600479922,
+      "current_price": 73886.61
     }
   },
   "trade_history": [
@@ -263,7 +274,16 @@
       "pnl_pct": -0.049360253349402514,
       "date": "2026-08-02T01:55:02.932278",
       "reason": "trailing_stop"
+    },
+    {
+      "action": "BUY",
+      "symbol": "BTC/USDT",
+      "units": 0.015762379414620026,
+      "price": 73960.49660999999,
+      "cost": 1166.9592026697985,
+      "date": "2026-08-04T01:32:22.805167",
+      "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-08-03T20:57:44.288263"
+  "saved_at": "2026-08-04T01:32:23.352862"
 }
