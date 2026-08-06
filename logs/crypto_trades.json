@@ -1,5 +1,5 @@
 {
-  "capital": 8078.951549864391,
+  "capital": 6136.312783406131,
   "starting_capital": 10000.0,
   "positions": {
     "ADA/USDT": {
@@ -11,7 +11,7 @@
       "cost": 983.5676265849688,
       "reason": "FEAR",
       "stop_loss_pct": 0.07937184247367467,
-      "current_price": 0.2354
+      "current_price": 0.2309
     },
     "BTC/USDT": {
       "units": 0.015762379414620026,
@@ -22,7 +22,29 @@
       "cost": 1166.9592026697985,
       "reason": "FEAR",
       "stop_loss_pct": 0.04759526600479922,
-      "current_price": 73659.23
+      "current_price": 71403.98
+    },
+    "SOL/USDT": {
+      "units": 12.365360264617559,
+      "entry_price": 81.33125,
+      "entry_date": "2026-08-06T01:46:19.735225",
+      "highest_price": 81.33125,
+      "signal": 0.6217920204738948,
+      "cost": 1006.6958972286983,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.0727384615384615,
+      "current_price": 81.25
+    },
+    "XRP/USDT": {
+      "units": 723.6955044399267,
+      "entry_price": 1.2919906999999997,
+      "entry_date": "2026-08-06T01:46:20.708358",
+      "highest_price": 1.2919906999999997,
+      "signal": 0.660378974869568,
+      "cost": 935.9428692295619,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.06997310429556496,
+      "current_price": 1.2907
     }
   },
   "trade_history": [
@@ -283,7 +305,25 @@
       "cost": 1166.9592026697985,
       "date": "2026-08-04T01:32:22.805167",
       "reason": "FEAR"
+    },
+    {
+      "action": "BUY",
+      "symbol": "SOL/USDT",
+      "units": 12.365360264617559,
+      "price": 81.33125,
+      "cost": 1006.6958972286983,
+      "date": "2026-08-06T01:46:19.735237",
+      "reason": "FEAR"
+    },
+    {
+      "action": "BUY",
+      "symbol": "XRP/USDT",
+      "units": 723.6955044399267,
+      "price": 1.2919906999999997,
+      "cost": 935.9428692295619,
+      "date": "2026-08-06T01:46:20.708393",
+      "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-08-05T20:59:52.738646"
+  "saved_at": "2026-08-06T01:46:21.292715"
 }
