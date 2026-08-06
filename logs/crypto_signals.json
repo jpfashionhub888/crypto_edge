@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 71403.98,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "ETH/USDT": {
     "prediction": 0.4892206006299372,
     "signal": "HOLD",
     "price": 2006.34,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "SOL/USDT": {
     "prediction": 0.6217920204738948,
     "signal": "BUY",
     "price": 81.25,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "XRP/USDT": {
     "prediction": 0.660378974869568,
     "signal": "BUY",
     "price": 1.2907,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "ADA/USDT": {
     "prediction": 0.5247619141866856,
     "signal": "HOLD",
     "price": 0.2309,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "AVAX/USDT": {
     "prediction": 0.5266764405448179,
     "signal": "HOLD",
     "price": 8.94,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "DOGE/USDT": {
     "prediction": 0.425198745782955,
     "signal": "HOLD",
     "price": 0.1005,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "LINK/USDT": {
     "prediction": 0.5027693564805976,
     "signal": "HOLD",
     "price": 9.06,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "DOT/USDT": {
     "prediction": 0.5589236952998431,
     "signal": "HOLD",
     "price": 1.09,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   },
   "SHIB/USDT": {
     "prediction": 0.3275267799295104,
     "signal": "AVOID",
     "price": 5.5e-06,
     "fear_greed": 25,
-    "btc_dominance": 56.69889522893955
+    "btc_dominance": 56.72090223554005
   }
 }
