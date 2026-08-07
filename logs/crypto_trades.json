@@ -1,5 +1,5 @@
 {
-  "capital": 9040.666016435647,
+  "capital": 7894.701701899079,
   "starting_capital": 10000.0,
   "positions": {
     "DOGE/USDT": {
@@ -12,6 +12,17 @@
       "reason": "FEAR",
       "stop_loss_pct": 0.08534522528063969,
       "current_price": 0.0929
+    },
+    "SOL/USDT": {
+      "units": 15.407191421558721,
+      "entry_price": 74.30422999999999,
+      "entry_date": "2026-08-07T05:29:53.885838",
+      "highest_price": 74.30422999999999,
+      "signal": 0.6325174589699127,
+      "cost": 1145.9643145365676,
+      "reason": "FEAR",
+      "stop_loss_pct": 0.09193433536690976,
+      "current_price": 74.23
     }
   },
   "trade_history": [
@@ -343,7 +354,16 @@
       "pnl_pct": -0.05937132519607128,
       "date": "2026-08-07T00:52:27.018913",
       "reason": "trailing_stop"
+    },
+    {
+      "action": "BUY",
+      "symbol": "SOL/USDT",
+      "units": 15.407191421558721,
+      "price": 74.30422999999999,
+      "cost": 1145.9643145365676,
+      "date": "2026-08-07T05:29:53.885849",
+      "reason": "FEAR"
     }
   ],
-  "saved_at": "2026-08-07T00:52:27.437882"
+  "saved_at": "2026-08-07T05:29:54.799467"
 }
