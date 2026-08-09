@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 63851.3,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "ETH/USDT": {
     "prediction": 0.46926963397018795,
     "signal": "HOLD",
     "price": 1769.7,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "SOL/USDT": {
     "prediction": 0.5045508663467666,
     "signal": "HOLD",
     "price": 68.76,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "XRP/USDT": {
     "prediction": 0.5274637569551017,
     "signal": "HOLD",
     "price": 1.1686,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "ADA/USDT": {
     "prediction": 0.4277218660224678,
     "signal": "HOLD",
     "price": 0.1799,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "AVAX/USDT": {
     "prediction": 0.4814175352935923,
     "signal": "HOLD",
     "price": 7.7,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "DOGE/USDT": {
     "prediction": 0.553192415330606,
     "signal": "HOLD",
     "price": 0.0885,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "LINK/USDT": {
     "prediction": 0.47874543748295856,
     "signal": "HOLD",
     "price": 8.0,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "DOT/USDT": {
     "prediction": 0.5226778448468493,
     "signal": "HOLD",
     "price": 0.95,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   },
   "SHIB/USDT": {
     "prediction": 0.35970658969280733,
     "signal": "AVOID",
     "price": 4.9e-06,
     "fear_greed": 31,
-    "btc_dominance": 56.60857214492548
+    "btc_dominance": 56.64661746089807
   }
 }
