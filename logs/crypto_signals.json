@@ -4,69 +4,69 @@
     "signal": "AVOID",
     "price": 63103.65,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "ETH/USDT": {
     "prediction": 0.4322947012526154,
     "signal": "HOLD",
     "price": 1690.31,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "SOL/USDT": {
     "prediction": 0.38165992240807756,
     "signal": "AVOID",
     "price": 66.79,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "XRP/USDT": {
     "prediction": 0.34336351107856283,
     "signal": "AVOID",
     "price": 1.1694,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "ADA/USDT": {
     "prediction": 0.31333767690358794,
     "signal": "AVOID",
     "price": 0.1705,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "AVAX/USDT": {
     "prediction": 0.3607163035931579,
     "signal": "AVOID",
     "price": 6.77,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "DOGE/USDT": {
     "prediction": 0.2527685999852113,
     "signal": "AVOID",
     "price": 0.0864,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "LINK/USDT": {
     "prediction": 0.42495716973622566,
     "signal": "HOLD",
     "price": 8.0,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "DOT/USDT": {
     "prediction": 0.2885853357515644,
     "signal": "AVOID",
     "price": 0.96,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   },
   "SHIB/USDT": {
     "prediction": 0.16196121005634434,
     "signal": "AVOID",
     "price": 4.8e-06,
     "fear_greed": 29,
-    "btc_dominance": 56.27979689038581
+    "btc_dominance": 56.27653673936715
   }
 }
