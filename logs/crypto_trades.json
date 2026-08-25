@@ -6,23 +6,23 @@
       "units": 0.7652509520371255,
       "entry_price": 1711.9802699999998,
       "entry_date": "2026-08-24T00:45:37.787729",
-      "highest_price": 1711.9802699999998,
+      "highest_price": 1740.91,
       "signal": 0.6718693575621295,
       "cost": 1311.404626017761,
       "reason": "GREED",
       "stop_loss_pct": 0.09374376142781136,
-      "current_price": 1710.27
+      "current_price": 1740.91
     },
     "LINK/USDT": {
       "units": 130.88569524209728,
       "entry_price": 7.937929999999999,
       "entry_date": "2026-08-24T00:45:38.388708",
-      "highest_price": 7.937929999999999,
+      "highest_price": 7.98,
       "signal": 0.6157241881827387,
       "cost": 1040.000448319934,
       "reason": "GREED",
       "stop_loss_pct": 0.09655917852639158,
-      "current_price": 7.93
+      "current_price": 7.98
     }
   },
   "trade_history": [
@@ -405,5 +405,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-08-24T20:21:19.932441"
+  "saved_at": "2026-08-25T00:44:27.068249"
 }
