@@ -11,7 +11,7 @@
       "cost": 1311.404626017761,
       "reason": "GREED",
       "stop_loss_pct": 0.09374376142781136,
-      "current_price": 1740.91
+      "current_price": 1708.19
     },
     "LINK/USDT": {
       "units": 130.88569524209728,
@@ -22,7 +22,7 @@
       "cost": 1040.000448319934,
       "reason": "GREED",
       "stop_loss_pct": 0.09655917852639158,
-      "current_price": 7.98
+      "current_price": 7.8
     }
   },
   "trade_history": [
@@ -405,5 +405,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-08-25T20:20:08.834976"
+  "saved_at": "2026-08-26T00:45:34.945670"
 }
