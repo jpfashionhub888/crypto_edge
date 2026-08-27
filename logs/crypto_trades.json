@@ -1,5 +1,5 @@
 {
-  "capital": 7388.477620189773,
+  "capital": 5643.505166250576,
   "starting_capital": 10000.0,
   "positions": {
     "ETH/USDT": {
@@ -11,7 +11,7 @@
       "cost": 1311.404626017761,
       "reason": "GREED",
       "stop_loss_pct": 0.09374376142781136,
-      "current_price": 1708.19
+      "current_price": 1727.23
     },
     "LINK/USDT": {
       "units": 130.88569524209728,
@@ -22,7 +22,29 @@
       "cost": 1040.000448319934,
       "reason": "GREED",
       "stop_loss_pct": 0.09655917852639158,
-      "current_price": 7.8
+      "current_price": 7.83
+    },
+    "BTC/USDT": {
+      "units": 0.014328809588487824,
+      "entry_price": 64052.92894,
+      "entry_date": "2026-08-27T05:53:33.599246",
+      "highest_price": 64052.92894,
+      "signal": 0.6204832606677245,
+      "cost": 918.7200245885673,
+      "reason": "GREED",
+      "stop_loss_pct": 0.06016481687527341,
+      "current_price": 63988.94
+    },
+    "DOGE/USDT": {
+      "units": 10019.47023023492,
+      "entry_price": 0.08238229999999999,
+      "entry_date": "2026-08-27T05:53:34.221117",
+      "highest_price": 0.08238229999999999,
+      "signal": 0.6372745715457575,
+      "cost": 826.2524293506303,
+      "reason": "GREED",
+      "stop_loss_pct": 0.08036799166811316,
+      "current_price": 0.0823
     }
   },
   "trade_history": [
@@ -403,7 +425,25 @@
       "cost": 1040.000448319934,
       "date": "2026-08-24T00:45:38.388717",
       "reason": "GREED"
+    },
+    {
+      "action": "BUY",
+      "symbol": "BTC/USDT",
+      "units": 0.014328809588487824,
+      "price": 64052.92894,
+      "cost": 918.7200245885673,
+      "date": "2026-08-27T05:53:33.599255",
+      "reason": "GREED"
+    },
+    {
+      "action": "BUY",
+      "symbol": "DOGE/USDT",
+      "units": 10019.47023023492,
+      "price": 0.08238229999999999,
+      "cost": 826.2524293506303,
+      "date": "2026-08-27T05:53:34.221125",
+      "reason": "GREED"
     }
   ],
-  "saved_at": "2026-08-26T22:38:13.642050"
+  "saved_at": "2026-08-27T05:53:34.852402"
 }
