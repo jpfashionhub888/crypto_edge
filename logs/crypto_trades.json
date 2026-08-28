@@ -1,29 +1,7 @@
 {
-  "capital": 5643.505166250576,
+  "capital": 8702.299349725854,
   "starting_capital": 10000.0,
   "positions": {
-    "ETH/USDT": {
-      "units": 0.7652509520371255,
-      "entry_price": 1711.9802699999998,
-      "entry_date": "2026-08-24T00:45:37.787729",
-      "highest_price": 1740.91,
-      "signal": 0.6718693575621295,
-      "cost": 1311.404626017761,
-      "reason": "GREED",
-      "stop_loss_pct": 0.09374376142781136,
-      "current_price": 1727.23
-    },
-    "LINK/USDT": {
-      "units": 130.88569524209728,
-      "entry_price": 7.937929999999999,
-      "entry_date": "2026-08-24T00:45:38.388708",
-      "highest_price": 7.98,
-      "signal": 0.6157241881827387,
-      "cost": 1040.000448319934,
-      "reason": "GREED",
-      "stop_loss_pct": 0.09655917852639158,
-      "current_price": 7.83
-    },
     "BTC/USDT": {
       "units": 0.014328809588487824,
       "entry_price": 64052.92894,
@@ -33,18 +11,7 @@
       "cost": 918.7200245885673,
       "reason": "GREED",
       "stop_loss_pct": 0.06016481687527341,
-      "current_price": 63988.94
-    },
-    "DOGE/USDT": {
-      "units": 10019.47023023492,
-      "entry_price": 0.08238229999999999,
-      "entry_date": "2026-08-27T05:53:34.221117",
-      "highest_price": 0.08238229999999999,
-      "signal": 0.6372745715457575,
-      "cost": 826.2524293506303,
-      "reason": "GREED",
-      "stop_loss_pct": 0.08036799166811316,
-      "current_price": 0.0823
+      "current_price": 62752.47
     }
   },
   "trade_history": [
@@ -443,7 +410,40 @@
       "cost": 826.2524293506303,
       "date": "2026-08-27T05:53:34.221125",
       "reason": "GREED"
+    },
+    {
+      "action": "SELL",
+      "symbol": "ETH/USDT",
+      "units": 0.7652509520371255,
+      "price": 1665.40293,
+      "revenue": 1273.17672653021,
+      "pnl": -38.227899487550985,
+      "pnl_pct": -0.02720670373146288,
+      "date": "2026-08-28T03:57:50.444385",
+      "reason": "trailing_stop"
+    },
+    {
+      "action": "SELL",
+      "symbol": "LINK/USDT",
+      "units": 130.88569524209728,
+      "price": 7.62237,
+      "revenue": 996.6615376456626,
+      "pnl": -43.33891067427146,
+      "pnl_pct": -0.03975343697916192,
+      "date": "2026-08-28T03:57:51.109558",
+      "reason": "trailing_stop"
+    },
+    {
+      "action": "SELL",
+      "symbol": "DOGE/USDT",
+      "units": 10019.47023023492,
+      "price": 0.07882109999999999,
+      "revenue": 788.9559192994052,
+      "pnl": -37.29651005122514,
+      "pnl_pct": -0.04322773217062404,
+      "date": "2026-08-28T03:57:51.700154",
+      "reason": "trailing_stop"
     }
   ],
-  "saved_at": "2026-08-27T18:40:41.673201"
+  "saved_at": "2026-08-28T03:57:52.306195"
 }
