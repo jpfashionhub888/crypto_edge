@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 62752.47,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "ETH/USDT": {
     "prediction": 0.5194958708250345,
     "signal": "HOLD",
     "price": 1667.07,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "SOL/USDT": {
     "prediction": 0.5510962194234637,
     "signal": "HOLD",
     "price": 69.72,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "XRP/USDT": {
     "prediction": 0.4530083162430509,
     "signal": "HOLD",
     "price": 1.1113,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "ADA/USDT": {
     "prediction": 0.459200170267078,
     "signal": "HOLD",
     "price": 0.1512,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "AVAX/USDT": {
     "prediction": 0.3322901544873459,
     "signal": "AVOID",
     "price": 6.49,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "DOGE/USDT": {
     "prediction": 0.5610488188089269,
     "signal": "HOLD",
     "price": 0.0789,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "LINK/USDT": {
     "prediction": 0.4778411936404931,
     "signal": "HOLD",
     "price": 7.63,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "DOT/USDT": {
     "prediction": 0.45625425312101464,
     "signal": "HOLD",
     "price": 0.89,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   },
   "SHIB/USDT": {
-    "prediction": 0.31214382614348957,
+    "prediction": 0.31946255127541245,
     "signal": "AVOID",
     "price": 4.5e-06,
     "fear_greed": 73,
-    "btc_dominance": 59.26197250885995
+    "btc_dominance": 59.05461470269165
   }
 }
