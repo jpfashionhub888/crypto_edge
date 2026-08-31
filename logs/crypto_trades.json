@@ -1,7 +1,30 @@
 {
-  "capital": 9557.709843383407,
+  "capital": 7369.726316848417,
   "starting_capital": 10000.0,
-  "positions": {},
+  "positions": {
+    "ETH/USDT": {
+      "units": 0.7301863505882948,
+      "entry_price": 1581.1595799999998,
+      "entry_date": "2026-08-31T02:28:58.815595",
+      "highest_price": 1581.1595799999998,
+      "signal": 0.6033808174563511,
+      "cost": 1155.6956845613388,
+      "reason": "GREED",
+      "stop_loss_pct": 0.1,
+      "current_price": 1579.58
+    },
+    "DOT/USDT": {
+      "units": 1256.3736085722371,
+      "entry_price": 0.8208199999999999,
+      "entry_date": "2026-08-31T02:28:59.306348",
+      "highest_price": 0.8208199999999999,
+      "signal": 0.6130829700801577,
+      "cost": 1032.2878419736517,
+      "reason": "GREED",
+      "stop_loss_pct": 0.1,
+      "current_price": 0.82
+    }
+  },
   "trade_history": [
     {
       "action": "BUY",
@@ -442,7 +465,25 @@
       "pnl_pct": -0.06704653840299465,
       "date": "2026-08-30T02:34:41.715707",
       "reason": "stop_loss"
+    },
+    {
+      "action": "BUY",
+      "symbol": "ETH/USDT",
+      "units": 0.7301863505882948,
+      "price": 1581.1595799999998,
+      "cost": 1155.6956845613388,
+      "date": "2026-08-31T02:28:58.815605",
+      "reason": "GREED"
+    },
+    {
+      "action": "BUY",
+      "symbol": "DOT/USDT",
+      "units": 1256.3736085722371,
+      "price": 0.8208199999999999,
+      "cost": 1032.2878419736517,
+      "date": "2026-08-31T02:28:59.306357",
+      "reason": "GREED"
     }
   ],
-  "saved_at": "2026-08-30T22:16:55.065618"
+  "saved_at": "2026-08-31T02:28:59.743433"
 }
