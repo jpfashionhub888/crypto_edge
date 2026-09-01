@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 60087.65,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "ETH/USDT": {
     "prediction": 0.4822926306587302,
     "signal": "HOLD",
     "price": 1575.16,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "SOL/USDT": {
     "prediction": 0.5232781333699279,
     "signal": "HOLD",
     "price": 70.49,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "XRP/USDT": {
     "prediction": 0.503276877030882,
     "signal": "HOLD",
     "price": 1.0501,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "ADA/USDT": {
     "prediction": 0.4892844377879936,
     "signal": "HOLD",
     "price": 0.1453,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "AVAX/USDT": {
     "prediction": 0.4439734857082338,
     "signal": "HOLD",
     "price": 6.42,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "DOGE/USDT": {
     "prediction": 0.44221736792300825,
     "signal": "HOLD",
     "price": 0.0746,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "LINK/USDT": {
     "prediction": 0.41070123561745353,
     "signal": "HOLD",
     "price": 7.3,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "DOT/USDT": {
     "prediction": 0.3799388066043572,
     "signal": "AVOID",
     "price": 0.81,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   },
   "SHIB/USDT": {
     "prediction": 0.31208772781058247,
     "signal": "AVOID",
     "price": 4.2e-06,
     "fear_greed": 69,
-    "btc_dominance": 59.0361444596439
+    "btc_dominance": 59.09650669287644
   }
 }
