@@ -11,7 +11,7 @@
       "cost": 1155.6956845613388,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 1575.16
+      "current_price": 1570.87
     },
     "DOT/USDT": {
       "units": 1256.3736085722371,
@@ -22,7 +22,7 @@
       "cost": 1032.2878419736517,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 0.81
+      "current_price": 0.82
     }
   },
   "trade_history": [
@@ -485,5 +485,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-09-01T22:14:05.706530"
+  "saved_at": "2026-09-02T02:05:57.804252"
 }
