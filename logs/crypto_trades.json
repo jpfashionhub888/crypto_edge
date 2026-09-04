@@ -11,18 +11,18 @@
       "cost": 1155.6956845613388,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 1613.45
+      "current_price": 1571.72
     },
     "DOT/USDT": {
       "units": 1256.3736085722371,
       "entry_price": 0.8208199999999999,
       "entry_date": "2026-08-31T02:28:59.306348",
-      "highest_price": 0.8208199999999999,
+      "highest_price": 0.84,
       "signal": 0.6130829700801577,
       "cost": 1032.2878419736517,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 0.82
+      "current_price": 0.84
     }
   },
   "trade_history": [
@@ -485,5 +485,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-09-03T22:03:14.998814"
+  "saved_at": "2026-09-04T02:07:24.162733"
 }
