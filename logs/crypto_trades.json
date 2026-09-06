@@ -6,23 +6,23 @@
       "units": 0.7301863505882948,
       "entry_price": 1581.1595799999998,
       "entry_date": "2026-08-31T02:28:58.815595",
-      "highest_price": 1613.45,
+      "highest_price": 1701.28,
       "signal": 0.6033808174563511,
       "cost": 1155.6956845613388,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 1571.72
+      "current_price": 1701.28
     },
     "DOT/USDT": {
       "units": 1256.3736085722371,
       "entry_price": 0.8208199999999999,
       "entry_date": "2026-08-31T02:28:59.306348",
-      "highest_price": 0.84,
+      "highest_price": 0.88,
       "signal": 0.6130829700801577,
       "cost": 1032.2878419736517,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 0.84
+      "current_price": 0.88
     }
   },
   "trade_history": [
@@ -485,5 +485,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-09-04T21:59:30.818173"
+  "saved_at": "2026-09-06T02:02:48.516414"
 }
