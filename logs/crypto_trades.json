@@ -6,12 +6,12 @@
       "units": 0.7301863505882948,
       "entry_price": 1581.1595799999998,
       "entry_date": "2026-08-31T02:28:58.815595",
-      "highest_price": 1701.28,
+      "highest_price": 1758.76,
       "signal": 0.6033808174563511,
       "cost": 1155.6956845613388,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 1701.28
+      "current_price": 1758.76
     },
     "DOT/USDT": {
       "units": 1256.3736085722371,
@@ -485,5 +485,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-09-06T21:53:24.765345"
+  "saved_at": "2026-09-07T02:00:08.039526"
 }
