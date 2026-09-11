@@ -11,7 +11,7 @@
       "cost": 1155.6956845613388,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 1800.54
+      "current_price": 1771.33
     }
   },
   "trade_history": [
@@ -485,5 +485,5 @@
       "reason": "trailing_stop"
     }
   ],
-  "saved_at": "2026-09-10T22:08:05.195612"
+  "saved_at": "2026-09-11T02:10:00.546663"
 }
