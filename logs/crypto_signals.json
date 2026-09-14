@@ -4,69 +4,69 @@
     "signal": "BUY",
     "price": 64149.67,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "ETH/USDT": {
     "prediction": 0.4485531139834911,
     "signal": "HOLD",
     "price": 1796.14,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "SOL/USDT": {
     "prediction": 0.4095706487772497,
     "signal": "HOLD",
     "price": 78.11,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "XRP/USDT": {
     "prediction": 0.36239923199445745,
     "signal": "AVOID",
     "price": 1.1045,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "ADA/USDT": {
     "prediction": 0.4285641139961447,
     "signal": "HOLD",
     "price": 0.1668,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "AVAX/USDT": {
     "prediction": 0.4049404956852027,
     "signal": "HOLD",
     "price": 6.75,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "DOGE/USDT": {
     "prediction": 0.3784249458386276,
     "signal": "AVOID",
     "price": 0.0741,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "LINK/USDT": {
     "prediction": 0.46952482705267534,
     "signal": "HOLD",
     "price": 7.97,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "DOT/USDT": {
     "prediction": 0.29772992785914676,
     "signal": "AVOID",
     "price": 0.85,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   },
   "SHIB/USDT": {
     "prediction": 0.2488127001256993,
     "signal": "AVOID",
     "price": 4.4e-06,
     "fear_greed": 57,
-    "btc_dominance": 58.60727693788041
+    "btc_dominance": 58.478847685008795
   }
 }
