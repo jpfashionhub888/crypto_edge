@@ -11,7 +11,7 @@
       "cost": 1155.6956845613388,
       "reason": "GREED",
       "stop_loss_pct": 0.1,
-      "current_price": 1796.14
+      "current_price": 1787.75
     },
     "BTC/USDT": {
       "units": 0.01782109422523766,
@@ -22,7 +22,7 @@
       "cost": 1145.5048914323907,
       "reason": "NEUTRAL",
       "stop_loss_pct": 0.06177916203065201,
-      "current_price": 64149.67
+      "current_price": 63799.77
     }
   },
   "trade_history": [
@@ -505,5 +505,5 @@
       "reason": "NEUTRAL"
     }
   ],
-  "saved_at": "2026-09-14T22:53:50.344817"
+  "saved_at": "2026-09-15T02:35:43.513726"
 }
