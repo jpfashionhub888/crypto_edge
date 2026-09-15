@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 63799.77,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "ETH/USDT": {
     "prediction": 0.545002732289144,
     "signal": "HOLD",
     "price": 1787.75,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "SOL/USDT": {
     "prediction": 0.3748083806019633,
     "signal": "AVOID",
     "price": 76.74,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "XRP/USDT": {
     "prediction": 0.35118899831640044,
     "signal": "AVOID",
     "price": 1.096,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "ADA/USDT": {
     "prediction": 0.4163168629394274,
     "signal": "HOLD",
     "price": 0.1658,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "AVAX/USDT": {
     "prediction": 0.4098321127568975,
     "signal": "HOLD",
     "price": 6.49,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "DOGE/USDT": {
     "prediction": 0.395226036513592,
     "signal": "AVOID",
     "price": 0.0733,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "LINK/USDT": {
     "prediction": 0.4698526249692777,
     "signal": "HOLD",
     "price": 7.91,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "DOT/USDT": {
     "prediction": 0.3514535692116002,
     "signal": "AVOID",
     "price": 0.85,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   },
   "SHIB/USDT": {
     "prediction": 0.3389691707176175,
     "signal": "AVOID",
     "price": 4.3e-06,
     "fear_greed": 69,
-    "btc_dominance": 58.31581913730284
+    "btc_dominance": 58.37987479486383
   }
 }
