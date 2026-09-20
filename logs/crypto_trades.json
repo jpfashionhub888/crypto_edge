@@ -11,7 +11,7 @@
       "cost": 1145.5048914323907,
       "reason": "NEUTRAL",
       "stop_loss_pct": 0.06177916203065201,
-      "current_price": 65035.5
+      "current_price": 63816.27
     }
   },
   "trade_history": [
@@ -505,5 +505,5 @@
       "reason": "take_profit"
     }
   ],
-  "saved_at": "2026-09-18T22:06:58.628746"
+  "saved_at": "2026-09-20T02:30:32.837028"
 }
