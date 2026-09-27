@@ -11,7 +11,7 @@
       "cost": 1145.5048914323907,
       "reason": "NEUTRAL",
       "stop_loss_pct": 0.06177916203065201,
-      "current_price": 66563.76
+      "current_price": 65097.34
     },
     "XRP/USDT": {
       "units": 919.8827620560178,
@@ -22,7 +22,7 @@
       "cost": 1051.7786258999056,
       "reason": "GREED",
       "stop_loss_pct": 0.054533845787898834,
-      "current_price": 1.1411
+      "current_price": 1.1078
     }
   },
   "trade_history": [
@@ -525,5 +525,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-09-25T23:00:14.072098"
+  "saved_at": "2026-09-27T02:38:56.406710"
 }
