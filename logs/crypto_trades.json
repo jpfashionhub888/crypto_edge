@@ -1,5 +1,5 @@
 {
-  "capital": 7657.532736310037,
+  "capital": 6729.327187804058,
   "starting_capital": 10000.0,
   "positions": {
     "ETH/USDT": {
@@ -23,6 +23,17 @@
       "reason": "GREED",
       "stop_loss_pct": 0.056830784308668364,
       "current_price": 1.0841
+    },
+    "AVAX/USDT": {
+      "units": 143.8434655772401,
+      "entry_price": 6.44644,
+      "entry_date": "2026-10-04T10:20:47.509445",
+      "highest_price": 6.44644,
+      "signal": 0.6048631786612582,
+      "cost": 928.2055485059793,
+      "reason": "GREED",
+      "stop_loss_pct": 0.07697426796805677,
+      "current_price": 6.44
     }
   },
   "trade_history": [
@@ -563,7 +574,16 @@
       "pnl_pct": -0.008251298438917302,
       "date": "2026-10-01T03:13:40.785105",
       "reason": "trailing_stop"
+    },
+    {
+      "action": "BUY",
+      "symbol": "AVAX/USDT",
+      "units": 143.8434655772401,
+      "price": 6.44644,
+      "cost": 928.2055485059793,
+      "date": "2026-10-04T10:20:47.509453",
+      "reason": "GREED"
     }
   ],
-  "saved_at": "2026-10-04T03:30:32.091254"
+  "saved_at": "2026-10-04T10:20:47.914066"
 }
