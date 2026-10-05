@@ -1,5 +1,5 @@
 {
-  "capital": 8768.609816811411,
+  "capital": 7619.0832666919205,
   "starting_capital": 10000.0,
   "positions": {
     "AVAX/USDT": {
@@ -12,6 +12,17 @@
       "reason": "GREED",
       "stop_loss_pct": 0.07697426796805677,
       "current_price": 6.39
+    },
+    "XRP/USDT": {
+      "units": 1080.7639576133176,
+      "entry_price": 1.0625615,
+      "entry_date": "2026-10-05T11:01:24.509215",
+      "highest_price": 1.0625615,
+      "signal": 0.6541692269206888,
+      "cost": 1149.5265501194906,
+      "reason": "GREED",
+      "stop_loss_pct": 0.05558172397550633,
+      "current_price": 1.0615
     }
   },
   "trade_history": [
@@ -583,7 +594,16 @@
       "pnl_pct": -0.04370904416038882,
       "date": "2026-10-05T03:08:59.615288",
       "reason": "trailing_stop"
+    },
+    {
+      "action": "BUY",
+      "symbol": "XRP/USDT",
+      "units": 1080.7639576133176,
+      "price": 1.0625615,
+      "cost": 1149.5265501194906,
+      "date": "2026-10-05T11:01:24.509222",
+      "reason": "GREED"
     }
   ],
-  "saved_at": "2026-10-05T03:09:00.027672"
+  "saved_at": "2026-10-05T11:01:24.976351"
 }
