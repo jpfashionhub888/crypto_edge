@@ -1,5 +1,5 @@
 {
-  "capital": 7619.0832666919205,
+  "capital": 6672.567499699212,
   "starting_capital": 10000.0,
   "positions": {
     "AVAX/USDT": {
@@ -11,7 +11,7 @@
       "cost": 928.2055485059793,
       "reason": "GREED",
       "stop_loss_pct": 0.07697426796805677,
-      "current_price": 6.39
+      "current_price": 6.19
     },
     "XRP/USDT": {
       "units": 1080.7639576133176,
@@ -22,7 +22,18 @@
       "cost": 1149.5265501194906,
       "reason": "GREED",
       "stop_loss_pct": 0.05558172397550633,
-      "current_price": 1.0615
+      "current_price": 1.0613
+    },
+    "ETH/USDT": {
+      "units": 0.5119061681910835,
+      "entry_price": 1847.1553099999996,
+      "entry_date": "2026-10-06T01:06:42.719205",
+      "highest_price": 1847.1553099999996,
+      "signal": 0.6199076307213197,
+      "cost": 946.5157669927086,
+      "reason": "GREED",
+      "stop_loss_pct": 0.06686758786947916,
+      "current_price": 1845.31
     }
   },
   "trade_history": [
@@ -603,7 +614,16 @@
       "cost": 1149.5265501194906,
       "date": "2026-10-05T11:01:24.509222",
       "reason": "GREED"
+    },
+    {
+      "action": "BUY",
+      "symbol": "ETH/USDT",
+      "units": 0.5119061681910835,
+      "price": 1847.1553099999996,
+      "cost": 946.5157669927086,
+      "date": "2026-10-06T01:06:42.719212",
+      "reason": "GREED"
     }
   ],
-  "saved_at": "2026-10-05T11:01:24.976351"
+  "saved_at": "2026-10-06T01:06:43.409542"
 }
