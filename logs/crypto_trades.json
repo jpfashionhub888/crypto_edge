@@ -6,34 +6,34 @@
       "units": 143.8434655772401,
       "entry_price": 6.44644,
       "entry_date": "2026-10-04T10:20:47.509445",
-      "highest_price": 6.44644,
+      "highest_price": 6.55,
       "signal": 0.6048631786612582,
       "cost": 928.2055485059793,
       "reason": "GREED",
       "stop_loss_pct": 0.07697426796805677,
-      "current_price": 6.19
+      "current_price": 6.55
     },
     "XRP/USDT": {
       "units": 1080.7639576133176,
       "entry_price": 1.0625615,
       "entry_date": "2026-10-05T11:01:24.509215",
-      "highest_price": 1.0625615,
+      "highest_price": 1.081,
       "signal": 0.6541692269206888,
       "cost": 1149.5265501194906,
       "reason": "GREED",
       "stop_loss_pct": 0.05558172397550633,
-      "current_price": 1.0613
+      "current_price": 1.081
     },
     "ETH/USDT": {
       "units": 0.5119061681910835,
       "entry_price": 1847.1553099999996,
       "entry_date": "2026-10-06T01:06:42.719205",
-      "highest_price": 1847.1553099999996,
+      "highest_price": 1885.83,
       "signal": 0.6199076307213197,
       "cost": 946.5157669927086,
       "reason": "GREED",
       "stop_loss_pct": 0.06686758786947916,
-      "current_price": 1845.31
+      "current_price": 1885.83
     }
   },
   "trade_history": [
@@ -625,5 +625,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-10-06T23:29:38.646722"
+  "saved_at": "2026-10-07T03:26:10.553552"
 }
