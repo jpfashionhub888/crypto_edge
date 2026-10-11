@@ -1,5 +1,5 @@
 {
-  "capital": 6672.567499699212,
+  "capital": 6962.9460843577135,
   "starting_capital": 10000.0,
   "positions": {
     "AVAX/USDT": {
@@ -11,29 +11,29 @@
       "cost": 928.2055485059793,
       "reason": "GREED",
       "stop_loss_pct": 0.07697426796805677,
-      "current_price": 6.67
-    },
-    "XRP/USDT": {
-      "units": 1080.7639576133176,
-      "entry_price": 1.0625615,
-      "entry_date": "2026-10-05T11:01:24.509215",
-      "highest_price": 1.081,
-      "signal": 0.6541692269206888,
-      "cost": 1149.5265501194906,
-      "reason": "GREED",
-      "stop_loss_pct": 0.05558172397550633,
-      "current_price": 1.076
+      "current_price": 6.43
     },
     "ETH/USDT": {
       "units": 0.5119061681910835,
       "entry_price": 1847.1553099999996,
       "entry_date": "2026-10-06T01:06:42.719205",
-      "highest_price": 1885.83,
+      "highest_price": 1902.21,
       "signal": 0.6199076307213197,
       "cost": 946.5157669927086,
       "reason": "GREED",
       "stop_loss_pct": 0.06686758786947916,
-      "current_price": 1870.37
+      "current_price": 1902.21
+    },
+    "DOGE/USDT": {
+      "units": 11932.854457632238,
+      "entry_price": 0.0689689,
+      "entry_date": "2026-10-11T03:02:00.681467",
+      "highest_price": 0.0689689,
+      "signal": 0.6160849419417065,
+      "cost": 823.818841648795,
+      "reason": "GREED",
+      "stop_loss_pct": 0.060750570184532435,
+      "current_price": 0.0689
     }
   },
   "trade_history": [
@@ -623,7 +623,27 @@
       "cost": 946.5157669927086,
       "date": "2026-10-06T01:06:42.719212",
       "reason": "GREED"
+    },
+    {
+      "action": "BUY",
+      "symbol": "DOGE/USDT",
+      "units": 11932.854457632238,
+      "price": 0.0689689,
+      "cost": 823.818841648795,
+      "date": "2026-10-11T03:02:00.681476",
+      "reason": "GREED"
+    },
+    {
+      "action": "SELL",
+      "symbol": "XRP/USDT",
+      "units": 1080.7639576133176,
+      "price": 1.0319669999999999,
+      "revenue": 1114.197426307296,
+      "pnl": -35.329123812194666,
+      "pnl_pct": -0.02879315691374107,
+      "date": "2026-10-11T03:02:01.260333",
+      "reason": "trailing_stop"
     }
   ],
-  "saved_at": "2026-10-09T23:45:17.448043"
+  "saved_at": "2026-10-11T03:02:01.842380"
 }
