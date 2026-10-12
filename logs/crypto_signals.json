@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 64913.45,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "ETH/USDT": {
     "prediction": 0.5239540648675816,
     "signal": "HOLD",
     "price": 1913.78,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "SOL/USDT": {
     "prediction": 0.4742335784631434,
     "signal": "HOLD",
     "price": 73.64,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "XRP/USDT": {
     "prediction": 0.6203424148551022,
     "signal": "BUY",
     "price": 1.0219,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "ADA/USDT": {
     "prediction": 0.17402784889348258,
     "signal": "AVOID",
     "price": 0.2007,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "AVAX/USDT": {
     "prediction": 0.4018572510871887,
     "signal": "HOLD",
     "price": 6.54,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "DOGE/USDT": {
     "prediction": 0.5053525647654349,
     "signal": "HOLD",
     "price": 0.0697,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "LINK/USDT": {
     "prediction": 0.5296276622805591,
     "signal": "HOLD",
     "price": 8.17,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "DOT/USDT": {
     "prediction": 0.2699041801931101,
     "signal": "AVOID",
     "price": 0.82,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   },
   "SHIB/USDT": {
     "prediction": 0.4319015161248958,
     "signal": "HOLD",
     "price": 4.6e-06,
     "fear_greed": 69,
-    "btc_dominance": 59.508408421908165
+    "btc_dominance": 59.15064208339762
   }
 }
