@@ -11,40 +11,40 @@
       "cost": 928.2055485059793,
       "reason": "GREED",
       "stop_loss_pct": 0.07697426796805677,
-      "current_price": 6.54
+      "current_price": 6.48
     },
     "ETH/USDT": {
       "units": 0.5119061681910835,
       "entry_price": 1847.1553099999996,
       "entry_date": "2026-10-06T01:06:42.719205",
-      "highest_price": 1913.78,
+      "highest_price": 1917.17,
       "signal": 0.6199076307213197,
       "cost": 946.5157669927086,
       "reason": "GREED",
       "stop_loss_pct": 0.06686758786947916,
-      "current_price": 1913.78
+      "current_price": 1917.17
     },
     "DOGE/USDT": {
       "units": 11932.854457632238,
       "entry_price": 0.0689689,
       "entry_date": "2026-10-11T03:02:00.681467",
-      "highest_price": 0.0697,
+      "highest_price": 0.0703,
       "signal": 0.6160849419417065,
       "cost": 823.818841648795,
       "reason": "GREED",
       "stop_loss_pct": 0.060750570184532435,
-      "current_price": 0.0697
+      "current_price": 0.0703
     },
     "XRP/USDT": {
       "units": 845.3685856691149,
       "entry_price": 1.0229218999999998,
       "entry_date": "2026-10-12T03:25:14.014622",
-      "highest_price": 1.0229218999999998,
+      "highest_price": 1.0367,
       "signal": 0.6203424148551022,
       "cost": 865.6107858928165,
       "reason": "GREED",
       "stop_loss_pct": 0.050074790656060846,
-      "current_price": 1.0219
+      "current_price": 1.0367
     }
   },
   "trade_history": [
@@ -665,5 +665,5 @@
       "reason": "GREED"
     }
   ],
-  "saved_at": "2026-10-12T20:39:19.094824"
+  "saved_at": "2026-10-13T04:39:53.437304"
 }
