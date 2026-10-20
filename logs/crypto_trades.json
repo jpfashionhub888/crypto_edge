@@ -1,5 +1,5 @@
 {
-  "capital": 7855.384767056282,
+  "capital": 6905.442660776019,
   "starting_capital": 10000.0,
   "positions": {
     "ETH/USDT": {
@@ -11,7 +11,7 @@
       "cost": 946.5157669927086,
       "reason": "GREED",
       "stop_loss_pct": 0.06686758786947916,
-      "current_price": 1882.33
+      "current_price": 1883.06
     },
     "DOGE/USDT": {
       "units": 11932.854457632238,
@@ -22,7 +22,18 @@
       "cost": 823.818841648795,
       "reason": "GREED",
       "stop_loss_pct": 0.060750570184532435,
-      "current_price": 0.0701
+      "current_price": 0.0696
+    },
+    "XRP/USDT": {
+      "units": 945.4922390535526,
+      "entry_price": 1.0037026999999998,
+      "entry_date": "2026-10-20T02:43:43.916037",
+      "highest_price": 1.0037026999999998,
+      "signal": 0.6034364300491587,
+      "cost": 949.942106280263,
+      "reason": "NEUTRAL",
+      "stop_loss_pct": 0.04717263388850112,
+      "current_price": 1.0027
     }
   },
   "trade_history": [
@@ -663,7 +674,16 @@
       "pnl_pct": -0.02846424541306602,
       "date": "2026-10-19T02:30:28.153267",
       "reason": "trailing_stop"
+    },
+    {
+      "action": "BUY",
+      "symbol": "XRP/USDT",
+      "units": 945.4922390535526,
+      "price": 1.0037026999999998,
+      "cost": 949.942106280263,
+      "date": "2026-10-20T02:43:43.916045",
+      "reason": "NEUTRAL"
     }
   ],
-  "saved_at": "2026-10-19T23:14:53.724471"
+  "saved_at": "2026-10-20T02:43:44.498024"
 }
