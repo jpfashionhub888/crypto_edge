@@ -11,7 +11,7 @@
       "cost": 946.5157669927086,
       "reason": "GREED",
       "stop_loss_pct": 0.06686758786947916,
-      "current_price": 1873.57
+      "current_price": 1912.6
     },
     "DOGE/USDT": {
       "units": 11932.854457632238,
@@ -22,7 +22,7 @@
       "cost": 823.818841648795,
       "reason": "GREED",
       "stop_loss_pct": 0.060750570184532435,
-      "current_price": 0.0695
+      "current_price": 0.0704
     },
     "XRP/USDT": {
       "units": 945.4922390535526,
@@ -33,7 +33,7 @@
       "cost": 949.942106280263,
       "reason": "NEUTRAL",
       "stop_loss_pct": 0.04717263388850112,
-      "current_price": 0.9933
+      "current_price": 1.0033
     }
   },
   "trade_history": [
@@ -685,5 +685,5 @@
       "reason": "NEUTRAL"
     }
   ],
-  "saved_at": "2026-10-21T22:56:19.689134"
+  "saved_at": "2026-10-22T02:34:54.646675"
 }
