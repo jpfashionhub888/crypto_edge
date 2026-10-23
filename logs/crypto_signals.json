@@ -1,72 +1,72 @@
 {
   "BTC/USDT": {
-    "prediction": 0.48820155791145925,
+    "prediction": 0.4668978570069559,
     "signal": "HOLD",
-    "price": 64540.68,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "price": 64731.6,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "ETH/USDT": {
-    "prediction": 0.4198238729980107,
-    "signal": "HOLD",
-    "price": 1912.6,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "prediction": 0.376504043562288,
+    "signal": "AVOID",
+    "price": 1918.5,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "SOL/USDT": {
-    "prediction": 0.4949089647355178,
+    "prediction": 0.43764797290812407,
     "signal": "HOLD",
-    "price": 76.01,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "price": 77.06,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "XRP/USDT": {
-    "prediction": 0.6019324763802973,
-    "signal": "BUY",
-    "price": 1.0033,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "prediction": 0.4647390906222545,
+    "signal": "HOLD",
+    "price": 1.0016,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "ADA/USDT": {
-    "prediction": 0.40980483713656296,
+    "prediction": 0.4207748678843325,
     "signal": "HOLD",
-    "price": 0.1741,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "price": 0.17449,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "AVAX/USDT": {
-    "prediction": 0.41151934867020123,
+    "prediction": 0.5371006112048827,
     "signal": "HOLD",
-    "price": 6.36,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "price": 6.307,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "DOGE/USDT": {
-    "prediction": 0.508649694930453,
+    "prediction": 0.539029697348318,
     "signal": "HOLD",
-    "price": 0.0704,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "price": 0.07009,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "LINK/USDT": {
-    "prediction": 0.18638083590864252,
+    "prediction": 0.3682539491875158,
     "signal": "AVOID",
-    "price": 9.54,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "price": 9.525,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "DOT/USDT": {
-    "prediction": 0.49843783004516895,
-    "signal": "HOLD",
-    "price": 0.76,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "prediction": 0.3602462047518246,
+    "signal": "AVOID",
+    "price": 0.79,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   },
   "SHIB/USDT": {
-    "prediction": 0.48922078246763967,
-    "signal": "HOLD",
-    "price": 4.4e-06,
-    "fear_greed": 68,
-    "btc_dominance": 59.50739142147915
+    "prediction": 0.323555906903786,
+    "signal": "AVOID",
+    "price": 4.8e-06,
+    "fear_greed": 50,
+    "btc_dominance": 59.453464443198754
   }
 }

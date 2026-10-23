@@ -6,12 +6,12 @@
       "units": 0.5119061681910835,
       "entry_price": 1847.1553099999996,
       "entry_date": "2026-10-06T01:06:42.719205",
-      "highest_price": 1917.17,
+      "highest_price": 1918.5,
       "signal": 0.6199076307213197,
       "cost": 946.5157669927086,
       "reason": "GREED",
       "stop_loss_pct": 0.06686758786947916,
-      "current_price": 1912.6
+      "current_price": 1918.5
     },
     "DOGE/USDT": {
       "units": 11932.854457632238,
@@ -22,7 +22,7 @@
       "cost": 823.818841648795,
       "reason": "GREED",
       "stop_loss_pct": 0.060750570184532435,
-      "current_price": 0.0704
+      "current_price": 0.07009
     },
     "XRP/USDT": {
       "units": 945.4922390535526,
@@ -33,7 +33,7 @@
       "cost": 949.942106280263,
       "reason": "NEUTRAL",
       "stop_loss_pct": 0.04717263388850112,
-      "current_price": 1.0033
+      "current_price": 1.0016
     }
   },
   "trade_history": [
@@ -685,5 +685,5 @@
       "reason": "NEUTRAL"
     }
   ],
-  "saved_at": "2026-10-22T22:55:00.128659"
+  "saved_at": "2026-10-23T02:39:32.272330"
 }
