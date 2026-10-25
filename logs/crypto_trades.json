@@ -1,41 +1,7 @@
 {
-  "capital": 6905.442660776019,
+  "capital": 10249.794144058604,
   "starting_capital": 10000.0,
-  "positions": {
-    "ETH/USDT": {
-      "units": 0.5119061681910835,
-      "entry_price": 1847.1553099999996,
-      "entry_date": "2026-10-06T01:06:42.719205",
-      "highest_price": 1918.5,
-      "signal": 0.6199076307213197,
-      "cost": 946.5157669927086,
-      "reason": "GREED",
-      "stop_loss_pct": 0.06686758786947916,
-      "current_price": 1918.5
-    },
-    "DOGE/USDT": {
-      "units": 11932.854457632238,
-      "entry_price": 0.0689689,
-      "entry_date": "2026-10-11T03:02:00.681467",
-      "highest_price": 0.072,
-      "signal": 0.6160849419417065,
-      "cost": 823.818841648795,
-      "reason": "GREED",
-      "stop_loss_pct": 0.060750570184532435,
-      "current_price": 0.07009
-    },
-    "XRP/USDT": {
-      "units": 945.4922390535526,
-      "entry_price": 1.0037026999999998,
-      "entry_date": "2026-10-20T02:43:43.916037",
-      "highest_price": 1.0037026999999998,
-      "signal": 0.6034364300491587,
-      "cost": 949.942106280263,
-      "reason": "NEUTRAL",
-      "stop_loss_pct": 0.04717263388850112,
-      "current_price": 1.0016
-    }
-  },
+  "positions": {},
   "trade_history": [
     {
       "action": "BUY",
@@ -683,7 +649,40 @@
       "cost": 949.942106280263,
       "date": "2026-10-20T02:43:43.916045",
       "reason": "NEUTRAL"
+    },
+    {
+      "action": "SELL",
+      "symbol": "ETH/USDT",
+      "units": 0.5119061681910835,
+      "price": 2325.49218,
+      "revenue": 1189.2433572311074,
+      "pnl": 242.72759023839888,
+      "pnl_pct": 0.2589586633080684,
+      "date": "2026-10-25T02:25:17.102688",
+      "reason": "take_profit"
+    },
+    {
+      "action": "SELL",
+      "symbol": "DOGE/USDT",
+      "units": 11932.854457632238,
+      "price": 0.08035956,
+      "revenue": 957.9600148256059,
+      "pnl": 134.14117317681087,
+      "pnl_pct": 0.16515646907519183,
+      "date": "2026-10-25T02:25:17.628687",
+      "reason": "take_profit"
+    },
+    {
+      "action": "SELL",
+      "symbol": "XRP/USDT",
+      "units": 945.4922390535526,
+      "price": 1.2674313,
+      "revenue": 1197.1481112258712,
+      "pnl": 247.20600494560813,
+      "pnl_pct": 0.26275569449001196,
+      "date": "2026-10-25T02:25:18.144245",
+      "reason": "take_profit"
     }
   ],
-  "saved_at": "2026-10-23T22:47:32.635943"
+  "saved_at": "2026-10-25T02:25:18.751978"
 }
