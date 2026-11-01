@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 80256.34,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "ETH/USDT": {
     "prediction": 0.4228595911333646,
     "signal": "HOLD",
     "price": 2507.6,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "SOL/USDT": {
     "prediction": 0.5053526319808048,
     "signal": "HOLD",
     "price": 109.2,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "XRP/USDT": {
     "prediction": 0.406138422503201,
     "signal": "HOLD",
     "price": 1.4525,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "ADA/USDT": {
     "prediction": 0.16110888291234252,
     "signal": "AVOID",
     "price": 0.21417,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "AVAX/USDT": {
     "prediction": 0.41980052208700946,
     "signal": "HOLD",
     "price": 7.525,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "DOGE/USDT": {
     "prediction": 0.5042825562741403,
     "signal": "HOLD",
     "price": 0.08878,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "LINK/USDT": {
     "prediction": 0.3241265247242057,
     "signal": "AVOID",
     "price": 11.917,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "DOT/USDT": {
     "prediction": 0.2278375164248289,
     "signal": "AVOID",
     "price": 0.85,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   },
   "SHIB/USDT": {
-    "prediction": 0.3095020268281837,
+    "prediction": 0.2922538018719837,
     "signal": "AVOID",
     "price": 5.2e-06,
     "fear_greed": 34,
-    "btc_dominance": 60.01647265172315
+    "btc_dominance": 59.975002265270525
   }
 }
