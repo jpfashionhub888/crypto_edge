@@ -1,7 +1,19 @@
 {
-  "capital": 10225.859288019941,
+  "capital": 8647.593711968495,
   "starting_capital": 10000.0,
-  "positions": {},
+  "positions": {
+    "ADA/USDT": {
+      "units": 8073.78017013118,
+      "entry_price": 0.19528509,
+      "entry_date": "2026-11-20T01:34:01.076971",
+      "highest_price": 0.19528509,
+      "signal": 0.7701620612148503,
+      "cost": 1578.265576051447,
+      "reason": "EXTREME_FEAR",
+      "stop_loss_pct": 0.1,
+      "current_price": 0.19509
+    }
+  },
   "trade_history": [
     {
       "action": "BUY",
@@ -702,7 +714,16 @@
       "pnl_pct": -0.015212004349929397,
       "date": "2026-11-15T03:55:37.391970",
       "reason": "trailing_stop"
+    },
+    {
+      "action": "BUY",
+      "symbol": "ADA/USDT",
+      "units": 8073.78017013118,
+      "price": 0.19528509,
+      "cost": 1578.265576051447,
+      "date": "2026-11-20T01:34:01.076980",
+      "reason": "EXTREME_FEAR"
     }
   ],
-  "saved_at": "2026-11-19T16:58:41.866402"
+  "saved_at": "2026-11-20T01:34:01.614270"
 }
