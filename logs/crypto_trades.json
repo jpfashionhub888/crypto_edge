@@ -1,5 +1,5 @@
 {
-  "capital": 8647.593711968495,
+  "capital": 7395.346084077318,
   "starting_capital": 10000.0,
   "positions": {
     "ADA/USDT": {
@@ -12,6 +12,17 @@
       "reason": "EXTREME_FEAR",
       "stop_loss_pct": 0.1,
       "current_price": 0.19509
+    },
+    "SHIB/USDT": {
+      "units": 250450277.42996833,
+      "entry_price": 4.994989999999999e-06,
+      "entry_date": "2026-11-20T22:28:32.766895",
+      "highest_price": 4.994989999999999e-06,
+      "signal": 0.7225980579116822,
+      "cost": 1252.247627891177,
+      "reason": "EXTREME_FEAR",
+      "stop_loss_pct": 0.09733753220727168,
+      "current_price": 4.99e-06
     }
   },
   "trade_history": [
@@ -723,7 +734,16 @@
       "cost": 1578.265576051447,
       "date": "2026-11-20T01:34:01.076980",
       "reason": "EXTREME_FEAR"
+    },
+    {
+      "action": "BUY",
+      "symbol": "SHIB/USDT",
+      "units": 250450277.42996833,
+      "price": 4.994989999999999e-06,
+      "cost": 1252.247627891177,
+      "date": "2026-11-20T22:28:32.766908",
+      "reason": "EXTREME_FEAR"
     }
   ],
-  "saved_at": "2026-11-20T12:22:20.205774"
+  "saved_at": "2026-11-20T22:28:33.226697"
 }
