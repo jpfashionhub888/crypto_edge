@@ -4,69 +4,69 @@
     "signal": "HOLD",
     "price": 80899.44,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "ETH/USDT": {
     "prediction": 0.5206205856827136,
     "signal": "HOLD",
     "price": 2612.14,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "SOL/USDT": {
     "prediction": 0.4985640171899298,
     "signal": "HOLD",
     "price": 112.77,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "XRP/USDT": {
     "prediction": 0.42363570067430484,
     "signal": "HOLD",
     "price": 1.3963,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "ADA/USDT": {
     "prediction": 0.4650952704568204,
     "signal": "HOLD",
     "price": 0.22447,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "AVAX/USDT": {
     "prediction": 0.3984319414425515,
     "signal": "AVOID",
     "price": 8.213,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "DOGE/USDT": {
     "prediction": 0.4784198075360538,
     "signal": "HOLD",
     "price": 0.08741,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "LINK/USDT": {
-    "prediction": 0.4649518385368036,
+    "prediction": 0.46001963619281794,
     "signal": "HOLD",
     "price": 12.243,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "DOT/USDT": {
-    "prediction": 0.29583129833630956,
+    "prediction": 0.2908090437531483,
     "signal": "AVOID",
     "price": 1.1217,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   },
   "SHIB/USDT": {
-    "prediction": 0.3708599673622566,
+    "prediction": 0.3132635143964415,
     "signal": "AVOID",
     "price": 5.5e-06,
     "fear_greed": 11,
-    "btc_dominance": 58.819895968638306
+    "btc_dominance": 57.875484811409116
   }
 }
