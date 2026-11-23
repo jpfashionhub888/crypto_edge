@@ -6,34 +6,34 @@
       "units": 8073.78017013118,
       "entry_price": 0.19528509,
       "entry_date": "2026-11-20T01:34:01.076971",
-      "highest_price": 0.20278,
+      "highest_price": 0.22447,
       "signal": 0.7701620612148503,
       "cost": 1578.265576051447,
       "reason": "EXTREME_FEAR",
       "stop_loss_pct": 0.1,
-      "current_price": 0.20278
+      "current_price": 0.22447
     },
     "SHIB/USDT": {
       "units": 250450277.42996833,
       "entry_price": 4.994989999999999e-06,
       "entry_date": "2026-11-20T22:28:32.766895",
-      "highest_price": 5.47e-06,
+      "highest_price": 5.5e-06,
       "signal": 0.7225980579116822,
       "cost": 1252.247627891177,
       "reason": "EXTREME_FEAR",
       "stop_loss_pct": 0.09733753220727168,
-      "current_price": 5.47e-06
+      "current_price": 5.5e-06
     },
     "ETH/USDT": {
       "units": 0.3680258701133111,
       "entry_price": 2449.79735,
       "entry_date": "2026-11-22T04:10:20.511332",
-      "highest_price": 2449.79735,
+      "highest_price": 2612.14,
       "signal": 0.6089560265212297,
       "cost": 902.4903901363687,
       "reason": "EXTREME_FEAR",
       "stop_loss_pct": 0.0756976204582799,
-      "current_price": 2447.35
+      "current_price": 2612.14
     }
   },
   "trade_history": [
@@ -765,5 +765,5 @@
       "reason": "EXTREME_FEAR"
     }
   ],
-  "saved_at": "2026-11-22T21:26:37.120207"
+  "saved_at": "2026-11-23T04:51:41.308988"
 }

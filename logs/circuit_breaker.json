@@ -2,8 +2,8 @@
   "triggered": false,
   "trigger_reason": "",
   "trigger_date": null,
-  "daily_start": "2026-11-22",
-  "daily_start_val": 10220.206741843751,
-  "weekly_start": "2026-11-16",
-  "weekly_start_val": 10225.859288019941
+  "daily_start": "2026-11-23",
+  "daily_start_val": 10400.707967603888,
+  "weekly_start": "2026-11-23",
+  "weekly_start_val": 10400.707967603888
 }
