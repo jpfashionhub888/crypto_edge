@@ -1,28 +1,17 @@
 {
-  "capital": 8328.466818065279,
+  "capital": 9838.162567110609,
   "starting_capital": 10000.0,
   "positions": {
-    "SHIB/USDT": {
-      "units": 250450277.42996833,
-      "entry_price": 4.994989999999999e-06,
-      "entry_date": "2026-11-20T22:28:32.766895",
-      "highest_price": 5.57e-06,
-      "signal": 0.7225980579116822,
-      "cost": 1252.247627891177,
-      "reason": "EXTREME_FEAR",
-      "stop_loss_pct": 0.09733753220727168,
-      "current_price": 5.57e-06
-    },
     "ETH/USDT": {
       "units": 0.3680258701133111,
       "entry_price": 2449.79735,
       "entry_date": "2026-11-22T04:10:20.511332",
-      "highest_price": 2630.57,
+      "highest_price": 2644.7,
       "signal": 0.6089560265212297,
       "cost": 902.4903901363687,
       "reason": "EXTREME_FEAR",
       "stop_loss_pct": 0.0756976204582799,
-      "current_price": 2630.57
+      "current_price": 2644.7
     }
   },
   "trade_history": [
@@ -763,7 +752,18 @@
       "pnl_pct": 0.16538436190904296,
       "date": "2026-11-24T04:32:48.223903",
       "reason": "take_profit"
+    },
+    {
+      "action": "SELL",
+      "symbol": "SHIB/USDT",
+      "units": 250450277.42996833,
+      "price": 6.03396e-06,
+      "revenue": 1509.6957490453303,
+      "pnl": 257.44812115415334,
+      "pnl_pct": 0.20800241842326034,
+      "date": "2026-11-25T03:17:24.256180",
+      "reason": "take_profit"
     }
   ],
-  "saved_at": "2026-11-24T19:15:08.617639"
+  "saved_at": "2026-11-25T03:17:24.733184"
 }
