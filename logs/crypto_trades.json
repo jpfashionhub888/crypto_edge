@@ -6,12 +6,12 @@
       "units": 0.3680258701133111,
       "entry_price": 2449.79735,
       "entry_date": "2026-11-22T04:10:20.511332",
-      "highest_price": 2644.7,
+      "highest_price": 2775.68,
       "signal": 0.6089560265212297,
       "cost": 902.4903901363687,
       "reason": "EXTREME_FEAR",
       "stop_loss_pct": 0.0756976204582799,
-      "current_price": 2644.7
+      "current_price": 2775.68
     }
   },
   "trade_history": [
@@ -765,5 +765,5 @@
       "reason": "take_profit"
     }
   ],
-  "saved_at": "2026-11-25T23:56:34.779220"
+  "saved_at": "2026-11-26T06:02:46.249757"
 }
